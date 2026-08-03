@@ -2,7 +2,7 @@
 
 ## The sx Prop
 
-The `sx` prop is the primary styling method in MUI v7+:
+Use the `sx` prop for one-off, responsive, and theme-aware styles in MUI v9:
 
 ```typescript
 <Box
@@ -184,7 +184,7 @@ const theme = createTheme({
 });
 ```
 
-## CSS Variables (MUI v7+)
+## CSS Variables
 
 ```typescript
 // In theme configuration
@@ -192,15 +192,48 @@ const theme = createTheme({
   cssVariables: true
 });
 
-// Use in sx prop
-<Box sx={{ color: 'var(--mui-palette-primary-main)' }} />
+// Prefer theme.vars in styled callbacks
+const Status = styled('span')(({ theme }) => ({
+  color: theme.vars.palette.primary.main,
+}));
 
 // Use in CSS
 .custom-element {
   background-color: var(--mui-palette-background-paper);
-  padding: var(--mui-spacing-2);
 }
 ```
+
+## Slots and slotProps
+
+Customize internal parts with `slots` and `slotProps`. Do not use removed aliases such as `components`, `componentsProps`, `PaperProps`, or `PopperProps`.
+
+```typescript
+<Popover
+  open={open}
+  anchorEl={anchorEl}
+  onClose={handleClose}
+  slotProps={{
+    paper: { elevation: 8, sx: { p: 2 } },
+    backdrop: { invisible: true },
+  }}
+/>
+```
+
+## Tailwind CSS v4 layers
+
+For Vite and other client-rendered apps, place MUI before Tailwind utilities:
+
+```tsx
+import GlobalStyles from '@mui/material/GlobalStyles';
+import { StyledEngineProvider } from '@mui/material/styles';
+
+<StyledEngineProvider enableCssLayer>
+  <GlobalStyles styles="@layer theme, base, mui, components, utilities;" />
+  <App />
+</StyledEngineProvider>
+```
+
+For Next.js App Router, set `options={{ enableCssLayer: true }}` on `AppRouterCacheProvider` and declare the same layer order before importing Tailwind.
 
 ## Common Patterns
 
@@ -254,22 +287,11 @@ const theme = createTheme({
 
 ## Performance Tips
 
-- **Use sx prop for dynamic styles** - Better tree-shaking
-- **Use styled() for static reusable components** - Better performance
-- **Avoid inline functions in sx** - Can cause re-renders
-- **Leverage theme tokens** - Consistent and performant
-
-```typescript
-// ❌ Bad: Inline function in sx
-<Box sx={() => ({ p: 2 })} />
-
-// ✅ Good: Direct object
-<Box sx={{ p: 2 }} />
-
-// ✅ Good: Memoized function for complex logic
-const getSx = useMemo(() => ({ p: 2, /* complex logic */ }), [deps]);
-<Box sx={getSx} />
-```
+- Use `sx` for local and dynamic styles.
+- Use `styled()` or theme overrides for reusable static variants.
+- Hoist large static objects when it improves readability; do not memoize trivial style objects by default.
+- Prefer inline CSS custom properties for values that change very frequently.
+- Import only from public package entry points.
 
 ## Debugging Styles
 

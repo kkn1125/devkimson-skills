@@ -65,44 +65,34 @@ function App() {
 }
 ```
 
-## Dark Mode Support
+## Dark Mode with Color Schemes
 
 ```typescript
-const getTheme = (mode: 'light' | 'dark') => createTheme({
-  palette: {
-    mode,
-    ...(mode === 'light'
-      ? {
-          // Light mode colors
-          primary: { main: '#1976d2' },
-          background: {
-            default: '#f5f5f5',
-            paper: '#ffffff'
-          }
-        }
-      : {
-          // Dark mode colors
-          primary: { main: '#90caf9' },
-          background: {
-            default: '#121212',
-            paper: '#1e1e1e'
-          }
-        })
-  }
+import Button from '@mui/material/Button';
+import CssBaseline from '@mui/material/CssBaseline';
+import { createTheme, ThemeProvider, useColorScheme } from '@mui/material/styles';
+
+const theme = createTheme({
+  cssVariables: { colorSchemeSelector: 'class' },
+  colorSchemes: { light: true, dark: true },
 });
 
 function App() {
-  const [mode, setMode] = useState<'light' | 'dark'>('light');
-  const theme = useMemo(() => getTheme(mode), [mode]);
-
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <IconButton onClick={() => setMode(m => m === 'light' ? 'dark' : 'light')}>
-        {mode === 'light' ? <DarkModeIcon /> : <LightModeIcon />}
-      </IconButton>
-      {/* Your app */}
+      <ModeToggle />
     </ThemeProvider>
+  );
+}
+
+function ModeToggle() {
+  const { mode, setMode } = useColorScheme();
+  if (!mode) return null;
+  return (
+    <Button onClick={() => setMode(mode === 'dark' ? 'light' : 'dark')}>
+      Switch mode
+    </Button>
   );
 }
 ```

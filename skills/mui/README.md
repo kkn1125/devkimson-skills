@@ -1,12 +1,12 @@
-# MUI v7 Patterns Skill
+# MUI v9 Patterns Skill
 
-A comprehensive skill for working with Material-UI v7 components, styling, and best practices in React applications.
+A skill for working with Material UI v9 components, styling, migration, and best practices in React applications.
 
 ## Purpose
 
-This skill provides guidance and patterns for building React applications with Material-UI v7 (released March 2025). It covers component usage, the sx prop styling system, theme integration, responsive design, and MUI-specific utilities.
+This skill targets Material UI 9.2.x and covers component usage, the `sx` styling system, slots, CSS theme variables, responsive design, and migration from v7.
 
-MUI is one of the most popular React UI libraries, and v7 introduced several breaking changes from v6. This skill helps developers navigate these changes while following consistent, type-safe patterns.
+Material UI v9 removes deprecated APIs and legacy Grid patterns. This skill favors current, type-safe APIs.
 
 ## When to Use
 
@@ -17,7 +17,7 @@ Use this skill when you are:
 - **Customizing themes** - Setting up or modifying MUI themes
 - **Building responsive layouts** - Using MUI's breakpoint system for mobile-first design
 - **Using MUI utilities and hooks** - Working with useTheme, useMediaQuery, or custom MUI hooks
-- **Migrating from MUI v6** - Understanding v7 breaking changes
+- **Migrating from MUI v7** - Understanding v9 breaking changes
 
 **Trigger phrases:**
 - "style with sx prop"
@@ -37,9 +37,9 @@ Use this skill when you are:
 
 ## Key Features
 
-### MUI v7 Breaking Changes Awareness
+### MUI v9 Breaking Changes Awareness
 
-The skill includes guidance on v7-specific changes:
+The skill includes guidance on v9-specific changes:
 - Deep imports no longer work (use package exports)
 - `onBackdropClick` removed from Modal (use `onClose` instead)
 - Standardized `slots` and `slotProps` pattern for all components
@@ -131,10 +131,10 @@ function MyComponent() {
 import { Grid } from '@mui/material';
 
 <Grid container spacing={3}>
-  <Grid item xs={12} sm={6} md={4} lg={3}>
+  <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
     <Card>...</Card>
   </Grid>
-  <Grid item xs={12} sm={6} md={4} lg={3}>
+  <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
     <Card>...</Card>
   </Grid>
 </Grid>
@@ -160,7 +160,7 @@ import { Grid } from '@mui/material';
 ## Prerequisites
 
 - React 18 or later
-- Material-UI v7 packages installed:
+- Material UI v9 packages installed:
   - `@mui/material`
   - `@mui/icons-material` (for icons)
 - TypeScript (recommended for type safety)
@@ -228,5 +228,5 @@ The skill includes supplementary documentation:
 ## Related Documentation
 
 - [MUI Official Documentation](https://mui.com/material-ui/)
-- [MUI v7 Migration Guide](https://mui.com/material-ui/migration/upgrade-to-v7/)
+- [MUI v9 Migration Guide](https://mui.com/material-ui/migration/upgrade-to-v9/)
 - [MUI System (sx prop)](https://mui.com/system/getting-started/)

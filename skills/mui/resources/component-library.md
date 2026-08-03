@@ -31,20 +31,20 @@ Centers content with max-width:
 </Container>
 ```
 
-### Grid (v2)
+### Grid
 Responsive grid layout:
 
 ```typescript
-import Grid from '@mui/material/Grid2';
+import Grid from '@mui/material/Grid';
 
 <Grid container spacing={2}>
-  <Grid xs={12} sm={6} md={4}>
+  <Grid size={{ xs: 12, sm: 6, md: 4 }}>
     <Card>Item 1</Card>
   </Grid>
-  <Grid xs={12} sm={6} md={4}>
+  <Grid size={{ xs: 12, sm: 6, md: 4 }}>
     <Card>Item 2</Card>
   </Grid>
-  <Grid xs={12} sm={6} md={4}>
+  <Grid size={{ xs: 12, sm: 6, md: 4 }}>
     <Card>Item 3</Card>
   </Grid>
 </Grid>
@@ -380,13 +380,17 @@ Side navigation:
 >
   <Box sx={{ width: 250 }} role="presentation">
     <List>
-      <ListItem button onClick={() => navigate('/dashboard')}>
-        <ListItemIcon><DashboardIcon /></ListItemIcon>
-        <ListItemText primary="Dashboard" />
+      <ListItem disablePadding>
+        <ListItemButton onClick={() => navigate('/dashboard')}>
+          <ListItemIcon><DashboardIcon /></ListItemIcon>
+          <ListItemText primary="Dashboard" />
+        </ListItemButton>
       </ListItem>
-      <ListItem button onClick={() => navigate('/settings')}>
-        <ListItemIcon><SettingsIcon /></ListItemIcon>
-        <ListItemText primary="Settings" />
+      <ListItem disablePadding>
+        <ListItemButton onClick={() => navigate('/settings')}>
+          <ListItemIcon><SettingsIcon /></ListItemIcon>
+          <ListItemText primary="Settings" />
+        </ListItemButton>
       </ListItem>
     </List>
   </Box>

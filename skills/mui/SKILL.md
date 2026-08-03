@@ -1,29 +1,78 @@
 ---
 name: mui
-description: Material-UI v7 component library patterns including sx prop styling, theme integration, responsive design, and MUI-specific hooks. Use when working with MUI components, styling with sx prop, theme customization, or MUI utilities.
+description: Material UI v9 component patterns for React and TypeScript, including installation, sx and styled styling, Grid, slots, responsive layouts, CSS theme variables, dark mode, and v7-to-v9 migration. Use when implementing, reviewing, or upgrading code that imports @mui/material, @mui/icons-material, or @mui/system.
 ---
 
-# MUI v7 Patterns
+# Material UI v9 Patterns
 
 ## Purpose
 
-Material-UI v7 (released March 2025) patterns for component usage, styling with sx prop, theme integration, and responsive design.
+Target Material UI `9.2.x`, the current stable major as of 2026-08-03. Inspect the consuming project's `package.json` before changing code; preserve its installed major unless the user requests an upgrade.
 
-**Note**: MUI v7 breaking changes from v6:
-- Deep imports no longer work - use package exports field
-- `onBackdropClick` removed from Modal - use `onClose` instead
-- All components now use standardized `slots` and `slotProps` pattern
-- CSS layers support via `enableCssLayer` config (works with Tailwind v4)
+For detailed examples, read only the relevant resource:
 
-## When to Use This Skill
+- `resources/component-library.md`: component and layout examples
+- `resources/styling-guide.md`: `sx`, `styled`, slots, and CSS layers
+- `resources/theme-customization.md`: themes, CSS variables, and color schemes
 
-- Styling components with MUI sx prop
-- Using MUI components (Box, Grid, Paper, Typography, etc.)
-- Theme customization and usage
-- Responsive design with MUI breakpoints
-- MUI-specific utilities and hooks
+## Version and installation
 
----
+Use compatible major versions for Material UI packages:
+
+```bash
+npm install @mui/material@^9.2.0 @mui/icons-material@^9.2.0 @emotion/react @emotion/styled
+```
+
+Material UI v9 supports React 17, 18, and 19 and requires TypeScript 4.9 or newer. With React 18 or older, align `react-is` to the React version through the package manager's override or resolution mechanism.
+
+## v9 migration rules
+
+- Replace `GridLegacy` and old `item`, `xs`, `sm`, `md`, `lg`, and `xl` item props with `Grid` and `size`.
+- Use `slots` and `slotProps`; removed aliases such as `components`, `componentsProps`, `PaperProps`, `PopperProps`, and `TransitionComponent` must not appear in new code.
+- Handle escape and backdrop dismissal through the `reason` argument of `Dialog` or `Modal` `onClose`; `disableEscapeKeyDown` is removed.
+- When a button-like MUI component renders a custom element, set `nativeButton` to match whether the resolved element is a native `button`.
+- Use pointer events for Slider gesture interception; use `onPointerDown`, not `onMouseDown`.
+- Import icons with the `Outlined` suffix; legacy duplicate `Outline` exports are removed.
+- Expect updated keyboard focus and DOM semantics in Tabs, Menu, MenuList, and Stepper. Test user-visible behavior and accessibility instead of asserting obsolete DOM structure.
+- Do not use deep imports beyond public package exports.
+
+### Grid migration
+
+```tsx
+import Grid from '@mui/material/Grid';
+
+<Grid container spacing={2}>
+  <Grid size={{ xs: 12, md: 6 }}>Left</Grid>
+  <Grid size={{ xs: 12, md: 6 }}>Right</Grid>
+</Grid>
+```
+
+Use `offset={{ md: 2 }}`, `size="grow"`, or responsive objects when required. Do not add `item`.
+
+### Slots
+
+```tsx
+<Tooltip
+  title="Details"
+  slots={{ transition: Fade }}
+  slotProps={{ popper: { disablePortal: true }, transition: { timeout: 200 } }}
+>
+  <IconButton aria-label="Show details"><InfoOutlined /></IconButton>
+</Tooltip>
+```
+
+### Dialog close reasons
+
+```tsx
+<Dialog
+  open={open}
+  onClose={(_event, reason) => {
+    if (reason !== 'escapeKeyDown') setOpen(false);
+  }}
+>
+  {/* content */}
+</Dialog>
+```
 
 ## Quick Start
 
@@ -163,19 +212,19 @@ function UserProfile() {
 ```typescript
 import { Grid } from '@mui/material';
 
-// 12-column grid
+// Responsive 12-column grid (Grid items no longer need `item`)
 <Grid container spacing={2}>
-  <Grid item xs={12} md={6}>
+  <Grid size={{ xs: 12, md: 6 }}>
     Left half
   </Grid>
-  <Grid item xs={12} md={6}>
+  <Grid size={{ xs: 12, md: 6 }}>
     Right half
   </Grid>
 </Grid>
 
 // Responsive grid
 <Grid container spacing={3}>
-  <Grid item xs={12} sm={6} md={4} lg={3}>
+  <Grid size={{ xs: 12, sm: 6, md: 4, lg: 3 }}>
     Card
   </Grid>
   {/* Repeat for more cards */}
@@ -419,31 +468,6 @@ import { CircularProgress, Skeleton } from '@mui/material';
 
 ---
 
-## MUI-Specific Hooks
-
-### useMuiSnackbar
-
-```typescript
-import { useMuiSnackbar } from '@/hooks/useMuiSnackbar';
-
-function Component() {
-  const { showSuccess, showError, showInfo } = useMuiSnackbar();
-
-  const handleSave = async () => {
-    try {
-      await saveData();
-      showSuccess('Saved successfully');
-    } catch (error) {
-      showError('Failed to save');
-    }
-  };
-
-  return <Button onClick={handleSave}>Save</Button>;
-}
-```
-
----
-
 ## Icons
 
 ```typescript
@@ -498,7 +522,8 @@ const styles = {
 
 ## Additional Resources
 
-For more detailed patterns, see:
-- [styling-guide.md](resources/styling-guide.md) - Advanced styling patterns
-- [component-library.md](resources/component-library.md) - Component examples
-- [theme-customization.md](resources/theme-customization.md) - Theme setup
+Read only the resource needed for the task:
+
+- [styling-guide.md](resources/styling-guide.md) - Advanced styling, slots, and CSS layers
+- [component-library.md](resources/component-library.md) - Current component examples
+- [theme-customization.md](resources/theme-customization.md) - Theme, CSS variables, and color schemes
