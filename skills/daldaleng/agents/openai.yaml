@@ -1,0 +1,4 @@
+interface:
+  display_name: "달달영어 엔지니어링"
+  short_description: "달달영어 API·배치 소스 검토 및 안전한 수정 가이드"
+  default_prompt: "Use $daldaleng to inspect the live Daldal English source and review this issue with current policy and repository evidence."
