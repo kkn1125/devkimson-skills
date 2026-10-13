@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI/UX Evidence Review"
+  short_description: "화면과 코드의 사용성 문제를 증거·불확실성·우선순위로 검토"
+  default_prompt: "$ui-ux-evidence-review를 사용해 제공한 UI의 핵심 문제, 근거, 확신도와 최소 개선안을 알려주세요."
