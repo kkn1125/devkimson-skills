@@ -34,6 +34,15 @@ Design reference: `ai-workspace/50-artifacts/kpa-briefing-skill/` phases 01–06
 - Propose direction; user retains final priority.
 - Concise Korean bullets; one judgment per line where possible.
 
+# Briefing Title Convention
+
+- Resolve the requested briefing date in `Asia/Seoul` to zero-padded `YYYY-MM-DD`; use that date, never the save/update timestamp.
+- Use exactly `YYYY-MM-DD 아침 브리핑` for both the MCP resource `name` and the first heading in user-facing `briefing_text`: `# YYYY-MM-DD 아침 브리핑`.
+- Keep the cache path `ai-workspace/50-artifacts/briefings/morning/YYYY-MM-DD.md`; the filename is not the display title.
+- On create, refresh, or cache reuse, explicitly check the resource `name`; do not leave it as `YYYY-MM-DD.md`, use English labels, reverse the date order, or add a project prefix.
+- If a valid cache has an old display name, update only `name` with the current `expectedVersion` and read it back. Preserve the cached body, `briefing_date`, `generated_at`, status fields, and source references; a title correction alone does not require regenerating a briefing.
+- For a newly generated or refreshed briefing, use summary `YYYY-MM-DD 아침 브리핑` and make the resource name and `briefing_text` heading match before returning it.
+
 # Inputs
 
 - Date or relative date for the briefing.
@@ -126,8 +135,9 @@ Rules:
 2. Run completeness gate.
 3. Store in MCP when newly generated:
    - Path: `ai-workspace/50-artifacts/briefings/morning/YYYY-MM-DD.md`
+   - Name: `YYYY-MM-DD 아침 브리핑` (explicit MCP `name`)
    - Include: `briefing_date`, `generated_at`, cache policy, `schedule_horizon`, `project_coverage`, `source_inventory`, optional `analysis_json`, `briefing_text`, `sources`
-   - Summary: `Morning briefing cache for YYYY-MM-DD`
+   - Summary: `YYYY-MM-DD 아침 브리핑`
 4. If cache write fails, answer anyway and disclose failure.
 
 # Cache Policy
@@ -143,7 +153,7 @@ Rules:
 Use this structure. Korean for user text.
 
 ```text
-# KPA 브리핑 — YYYY-MM-DD
+# YYYY-MM-DD 아침 브리핑
 
 > 캐시: hit|miss|refresh · 생성: ISO-8601
 
