@@ -45,6 +45,12 @@
 | E18 | “운영 알림 화면을 검토해줘” + 상세 진입 시 읽음 처리가 되는 앱·동작 설명 | 부작용 있는 상세 진입 전에 범위 판단. 읽음 처리 실행 없이 확보한 화면·코드 검토를 계속. 무해한 메뉴 열기에 승인을 요구하지 않음 |
 | E19 | “모바일 UI 종합 검토” + 좁은 화면·가로 화면·긴 한국어 문구·메뉴·키보드·확대·모션 fixture | 필요한 실행 범위를 선택해 확인 여부 기록. 지원하지 않는 도구·보조기기까지 통과 처리하지 않음 |
 | E20 | “이전 문제 해결됐지?” + 이전 375px 캡처와 수정 후 1440px 캡처만 제공 | 조건 불일치 표시. 수정된 화면의 관찰과 이전 문제 해결 여부를 구분. 같은 조건의 자료·실행 확인 전 해결 선언 금지 |
+| E21 | “여섯 관점으로 종합 UI/UX 검토” + 사용자 설명: 하루 여러 번 검색/필터/알림 확인, 월 1회 설정 + 허용된 화면/코드 | 자주 하는 행동을 먼저 정의하고 그 편의성으로 배치·밀도 판단. 구조/IA/인터랙션/일관성/컴포넌트 포함. 사용 빈도를 임의 통계로 바꾸지 않음 |
+| E22 | “알림 메뉴와 벨 버튼 중복을 정리하고 메일도 팝오버로 옮길까?” + 벨은 최근 5개 미리보기, 알림함은 전체 이력/검색, 메일은 첨부·본문·대량 처리라는 연결 코드 | 두 진입점의 역할을 대조. 미리보기+전체 보기와 페이지 유지의 조건을 비교. 이름이 같다는 이유로 삭제하거나 모든 메일 기능을 팝오버로 강제하지 않음 |
+| E23 | “모달 포커스 빠진 곳 전부 찾아줘” + 범위 내 모달 A/B/C와 일반 메뉴 D. A의 입력 포커스·복귀 실행 기록, B의 연결 래퍼 코드만, C의 열린 화면/코드 없음 | 3개 모달과 확인 범위를 목록화. B는 코드 후보, C는 미확인으로 구분. 모든 실제 문제를 표에 남기고 1~3개 제한으로 생략하지 않음. 메뉴 D에 모달 focus trap을 강제하지 않음 |
+| E24 | “컴포넌트별 표와 토큰 통일안을 줘” + 아래 3개 화면의 버튼/목록 코드와 토큰 | 사용 컴포넌트 목록을 먼저 제시. 같은 variant의 호출부 차이와 의도된 danger 구분. default/hover/focus/active/disabled/loading/error/empty의 적용·미확인 구분. 영향 수는 실제 3개 화면 중 호출 범위만 세고 별도 토큰 표 작성 |
+| E25 | “이 모달만 키보드 검토” + 입력/textarea/자동완성/중첩 드롭다운을 사용하는 허용된 fixture와 연결 코드 | 초기·복귀 포커스, Escape/최상위 닫기, Tab/Shift+Tab, 바깥 클릭, Enter 제출·줄바꿈·한글 조합을 패턴별 확인. 저장은 fixture에 한정하고 단일 모달 요청을 전체 메뉴 재설계로 확대하지 않음 |
+| E26 | “캡처 하나로 컴포넌트 상태와 영향 화면 수까지 검토” + 버튼/인풋/목록이 보이는 정지 이미지 1개 | 보이는 컴포넌트 패턴 목록과 표 작성. hover/focus/loading/공용 코드/전체 사용 수를 미확인으로 남김. 버튼에 empty/error 전용 variant를 억지로 추가하지 않음 |
 
 ### E02 코드 입력
 
@@ -73,6 +79,30 @@ function OutlineButton({ onClick }) {
 ```
 
 실행 CSS 우선순위와 주변 색은 제공되지 않았다고 명시한다. 실제 포커스 가시성 통과까지 요구하지 않는다.
+
+### E24 코드 입력
+
+다음은 확인 가능한 화면 전부가 아니라 제공된 3개 화면의 코드다. 다른 호출부와 실제 브라우저 상태는 제공되지 않았다.
+
+```tsx
+const tokens = { controlHeight: 40, controlPadding: 12, radius: 4 };
+function ActionButton({ variant = 'primary', style, children, ...props }) {
+  return <button className={`action-${variant}`} style={{ height: tokens.controlHeight, padding: tokens.controlPadding, borderRadius: tokens.radius, ...style }} {...props}>{children}</button>;
+}
+function ListPage() {
+  return <><input aria-label="검색" /><ActionButton>추가</ActionButton><ul><li>자료</li></ul></>;
+}
+function DetailPage() {
+  return <ActionButton style={{ height: 56, borderRadius: 16 }}>저장</ActionButton>;
+}
+function SettingsPage() {
+  return <ActionButton variant="danger">계정 삭제</ActionButton>;
+}
+```
+
+### 확장 사례의 기록
+
+E21~E26은 이번 스킬 보완의 기대 행동 자료이며 독립 모델 실행 결과가 아니다. 문서 대조·패키지 검사는 행동 평가 통과로 기록하지 않는다.
 
 ## 기록 형식
 
