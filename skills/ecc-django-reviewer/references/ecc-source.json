@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/django-reviewer.md",
+  "metadata": {
+    "name": "django-reviewer",
+    "description": "Expert Django code reviewer specializing in ORM correctness, DRF patterns, migration safety, security misconfigurations, and production-grade Django practices. Use for all Django code changes. MUST BE USED for Django projects.",
+    "tools": "Read, Grep, Glob, Bash",
+    "model": "sonnet"
+  },
+  "variant": null
+}

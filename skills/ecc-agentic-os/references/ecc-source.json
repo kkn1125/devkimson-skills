@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/agentic-os/SKILL.md",
+  "metadata": {
+    "name": "agentic-os",
+    "description": "Build persistent multi-agent operating systems on Claude Code. Covers kernel architecture, specialist agents, slash commands, file-based memory, scheduled automation, and state management without external databases. Use when building a persistent multi-agent system on Claude Code with its own memory, commands, and scheduling.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

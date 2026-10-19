@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/go-test.md",
+  "metadata": {
+    "description": "Enforce TDD workflow for Go. Write table-driven tests first, then implement. Verify 80%+ coverage with go test -cover."
+  },
+  "variant": null
+}

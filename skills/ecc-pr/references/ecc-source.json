@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/pr.md",
+  "metadata": {
+    "description": "Create a GitHub PR from current branch with unpushed commits — discovers templates, analyzes changes, pushes",
+    "argument-hint": "[base-branch] (default: main)"
+  },
+  "variant": null
+}

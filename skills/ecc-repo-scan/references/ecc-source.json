@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/repo-scan/SKILL.md",
+  "metadata": {
+    "name": "repo-scan",
+    "description": "Bootstrap pointer that installs the external repo-scan skill from a pinned, reviewable commit. Use when repo-scan must be installed before running its cross-stack source-code asset audit; this ECC pointer does not perform the audit itself.",
+    "metadata": {
+      "origin": "community"
+    }
+  },
+  "variant": null
+}

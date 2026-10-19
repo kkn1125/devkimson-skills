@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/clickhouse-io/SKILL.md",
+  "metadata": {
+    "name": "clickhouse-io",
+    "description": "ClickHouse database patterns, query optimization, analytics, and data engineering best practices for high-performance analytical workloads. Use when writing ClickHouse schemas or queries, or when an analytical query is too slow.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

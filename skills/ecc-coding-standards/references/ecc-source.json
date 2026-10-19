@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/coding-standards/SKILL.md",
+  "metadata": {
+    "name": "coding-standards",
+    "description": "Baseline cross-project coding conventions for naming, readability, immutability, and code-quality review. Use detailed frontend or backend skills for framework-specific patterns. Use when reviewing code quality or naming with no framework-specific skill that applies.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": ".agents/skills/coding-standards/SKILL.md"
+}

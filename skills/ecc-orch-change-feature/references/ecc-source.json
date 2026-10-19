@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/orch-change-feature/SKILL.md",
+  "metadata": {
+    "name": "orch-change-feature",
+    "description": "Orchestrate altering an existing, working feature to new desired behavior — update its tests to the new spec, change the implementation to match, review, and gated commit. Use when behavior is not broken but should be different.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

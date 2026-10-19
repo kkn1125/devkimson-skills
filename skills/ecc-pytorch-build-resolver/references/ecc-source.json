@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/pytorch-build-resolver.md",
+  "metadata": {
+    "name": "pytorch-build-resolver",
+    "description": "PyTorch runtime, CUDA, and training error resolution specialist. Fixes tensor shape mismatches, device errors, gradient issues, DataLoader problems, and mixed precision failures with minimal changes. Use when PyTorch training or inference crashes.",
+    "tools": "Read, Write, Edit, Bash, Grep, Glob",
+    "model": "sonnet"
+  },
+  "variant": null
+}

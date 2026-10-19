@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/orch-fix-defect/SKILL.md",
+  "metadata": {
+    "name": "orch-fix-defect",
+    "description": "Orchestrate fixing a bug — reproduce it as a failing regression test, fix to green, review, and gated commit — by delegating each phase to the matching ECC agent. Use when existing behavior is broken or wrong.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

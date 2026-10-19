@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/frontend-patterns/SKILL.md",
+  "metadata": {
+    "name": "frontend-patterns",
+    "description": "Frontend development patterns for React, Next.js, state management, performance optimization, and UI best practices. Use when building or reviewing React or Next.js components, state, or render performance.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": ".agents/skills/frontend-patterns/SKILL.md"
+}

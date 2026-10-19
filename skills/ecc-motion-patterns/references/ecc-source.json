@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/motion-patterns/SKILL.md",
+  "metadata": {
+    "name": "motion-patterns",
+    "description": "Production-ready animation patterns for React / Next.js — button, modal, toast, stagger, page transitions, exit animations, scroll, and layout — built on motion-foundations tokens and springs. Use when animating a specific UI element in React or Next.js — button, modal, toast, stagger, page transition, or scroll.",
+    "tags": [
+      "motion",
+      "animation",
+      "ui-patterns"
+    ],
+    "category": "frontend",
+    "author": "jeff",
+    "metadata": {
+      "version": "1.0.0"
+    }
+  },
+  "variant": null
+}

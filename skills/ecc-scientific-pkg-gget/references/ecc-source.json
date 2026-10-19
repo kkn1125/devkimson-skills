@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/scientific-pkg-gget/SKILL.md",
+  "metadata": {
+    "name": "scientific-pkg-gget",
+    "description": "gget CLI and Python workflow for quick genomic database queries, sequence lookup, BLAST-style searches, enrichment checks, and reproducible bioinformatics evidence logs. Use when a task needs quick bioinformatics lookup across genomic reference databases with the gget CLI or Python package.",
+    "metadata": {
+      "origin": "community"
+    }
+  },
+  "variant": null
+}

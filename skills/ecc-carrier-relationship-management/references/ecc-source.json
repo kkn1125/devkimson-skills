@@ -1,0 +1,20 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/carrier-relationship-management/SKILL.md",
+  "metadata": {
+    "name": "carrier-relationship-management",
+    "description": "Manage truckload, LTL, and intermodal carrier portfolios: sourcing and FMCSA vetting, freight rate and fuel-surcharge negotiation, RFPs and routing guides, carrier scorecards, allocation, and renewals. Use when onboarding carriers, running freight RFPs, negotiating rates, evaluating carrier performance, reallocating freight, or building freight strategy.",
+    "license": "Apache-2.0",
+    "homepage": "https://github.com/affaan-m/ECC",
+    "metadata": {
+      "version": "1.0.0",
+      "origin": "ECC",
+      "author": "evos",
+      "clawdbot": {
+        "emoji": ""
+      }
+    }
+  },
+  "variant": null
+}

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/perl-testing/SKILL.md",
+  "metadata": {
+    "name": "perl-testing",
+    "description": "Perl testing patterns using Test2::V0, Test::More, prove runner, mocking, coverage with Devel::Cover, and TDD methodology. Use when writing Perl tests with Test2::V0 or Test::More, or measuring coverage.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

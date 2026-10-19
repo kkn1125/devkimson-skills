@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/nextjs-turbopack/SKILL.md",
+  "metadata": {
+    "name": "nextjs-turbopack",
+    "description": "Next.js 16+ and Turbopack guidance — incremental Rust bundling, file-system caching, faster dev startup and HMR, Turbopack vs webpack tradeoffs, and the middleware.ts to proxy.ts filename change. Use when developing or debugging Next.js 16+ apps, diagnosing slow dev startup or hot reload, choosing between bundlers, or reviewing middleware/proxy file naming.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": ".agents/skills/nextjs-turbopack/SKILL.md"
+}

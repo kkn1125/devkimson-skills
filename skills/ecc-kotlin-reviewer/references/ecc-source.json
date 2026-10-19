@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/kotlin-reviewer.md",
+  "metadata": {
+    "name": "kotlin-reviewer",
+    "description": "Kotlin and Android/KMP code reviewer. Reviews Kotlin code for idiomatic patterns, coroutine safety, Compose best practices, clean architecture violations, and common Android pitfalls.",
+    "tools": "Read, Grep, Glob, Bash",
+    "model": "sonnet"
+  },
+  "variant": null
+}

@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/agent-eval/SKILL.md",
+  "metadata": {
+    "name": "agent-eval",
+    "description": "Head-to-head comparison of coding agents (Claude Code, Aider, Codex, etc.) on custom tasks with pass rate, cost, time, and consistency metrics. Use when choosing between coding agents, or when a change to an agent setup needs measured pass rate, cost, and time rather than an impression.",
+    "license": "MIT",
+    "metadata": {
+      "origin": "ECC"
+    },
+    "tools": "Read, Write, Edit, Bash, Grep, Glob"
+  },
+  "variant": null
+}

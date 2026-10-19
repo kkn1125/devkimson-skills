@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/ai-first-engineering/SKILL.md",
+  "metadata": {
+    "name": "ai-first-engineering",
+    "description": "Engineering operating model for teams where AI agents generate a large share of implementation output. Use when setting team process, review gates, or ownership rules for a codebase largely written by agents.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

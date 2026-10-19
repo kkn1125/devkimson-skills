@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/multi-workflow.md",
+  "metadata": {
+    "description": "Run a full multi-model development workflow with research, planning, execution, optimization, and review."
+  },
+  "variant": null
+}

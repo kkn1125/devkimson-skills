@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/loop-status.md",
+  "metadata": {
+    "description": "Inspect active loop state, progress, failure signals, and recommended intervention."
+  },
+  "variant": null
+}

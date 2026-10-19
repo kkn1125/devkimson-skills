@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/agent-harness-construction/SKILL.md",
+  "metadata": {
+    "name": "agent-harness-construction",
+    "description": "Design and optimize AI agent action spaces, tool definitions, and observation formatting for higher completion rates. Use when defining or revising an agent's tool set, action space, or observation format.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/remotion-video-creation/SKILL.md",
+  "metadata": {
+    "name": "remotion-video-creation",
+    "description": "Best practices for Remotion - Video creation in React. 29 domain-specific rules covering 3D, animations, audio, captions, charts, transitions, and more. Use when building video in React with Remotion — animations, audio, captions, charts, or transitions.",
+    "metadata": {
+      "tags": "remotion, video, react, animation, composition, three.js, lottie"
+    }
+  },
+  "variant": null
+}

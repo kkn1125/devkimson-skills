@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/kotlin-testing/SKILL.md",
+  "metadata": {
+    "name": "kotlin-testing",
+    "description": "Kotlin testing patterns with Kotest, MockK, coroutine testing, property-based testing, and Kover coverage. Follows TDD methodology with idiomatic Kotlin practices. Use when writing Kotlin tests with Kotest or MockK, or testing coroutines and checking coverage.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

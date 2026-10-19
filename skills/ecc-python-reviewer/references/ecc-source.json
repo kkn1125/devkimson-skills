@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/python-reviewer.md",
+  "metadata": {
+    "name": "python-reviewer",
+    "description": "Expert Python code reviewer specializing in PEP 8 compliance, Pythonic idioms, type hints, security, and performance. Use for all Python code changes. MUST BE USED for Python projects.",
+    "tools": "Read, Grep, Glob, Bash",
+    "model": "sonnet"
+  },
+  "variant": null
+}

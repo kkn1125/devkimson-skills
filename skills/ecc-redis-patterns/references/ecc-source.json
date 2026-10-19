@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/redis-patterns/SKILL.md",
+  "metadata": {
+    "name": "redis-patterns",
+    "description": "Redis data structure patterns, caching strategies, distributed locks, rate limiting, pub/sub, and connection management for production applications. Use when adding caching, a distributed lock, rate limiting, or pub/sub with Redis, or when key design needs review.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

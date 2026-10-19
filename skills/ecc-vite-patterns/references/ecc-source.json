@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/vite-patterns/SKILL.md",
+  "metadata": {
+    "name": "vite-patterns",
+    "description": "Vite build tool patterns including config, plugins, HMR, env variables, proxy setup, SSR, library mode, dependency pre-bundling, and build optimization. Activate when working with vite.config.ts, Vite plugins, or Vite-based projects.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

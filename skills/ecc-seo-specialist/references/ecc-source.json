@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/seo-specialist.md",
+  "metadata": {
+    "name": "seo-specialist",
+    "description": "SEO specialist for technical SEO audits, on-page optimization, structured data, Core Web Vitals, and content/keyword mapping. Use for site audits, meta tag reviews, schema markup, sitemap and robots issues, and SEO remediation plans.",
+    "tools": "Read, Grep, Glob, WebSearch, WebFetch",
+    "model": "sonnet"
+  },
+  "variant": null
+}

@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/plan-canvas.md",
+  "metadata": {
+    "description": "Open a plan or HTML artifact in the browser Plan Canvas for annotate-and-approve review. This is a thin slash-command entrypoint over the plan-canvas skill, which covers the full workflow and rules.",
+    "argument-hint": "[path/to/artifact.plan.md | path/to/artifact.html]"
+  },
+  "variant": null
+}

@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/php-reviewer.md",
+  "metadata": {
+    "name": "php-reviewer",
+    "description": "Expert PHP code reviewer specializing in PSR-12 compliance, PHP type system, Eloquent ORM patterns, security, and performance. Use for all PHP code changes. MUST BE USED for PHP projects.",
+    "tools": "Read, Grep, Glob, Bash",
+    "model": "sonnet"
+  },
+  "variant": null
+}

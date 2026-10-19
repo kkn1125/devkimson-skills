@@ -1,0 +1,22 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/motion-advanced/SKILL.md",
+  "metadata": {
+    "name": "motion-advanced",
+    "description": "Advanced motion patterns for React / Next.js — drag & drop, gestures, text animations, SVG path drawing, custom hooks, imperative sequences (useAnimate), loaders, and the full API decision tree. Requires motion-foundations. Use when building drag and drop, gestures, text or SVG animation, or imperative animation sequences in React or Next.js.",
+    "tags": [
+      "motion",
+      "animation",
+      "advanced",
+      "gestures",
+      "svg"
+    ],
+    "category": "frontend",
+    "author": "jeff",
+    "metadata": {
+      "version": "1.0.0"
+    }
+  },
+  "variant": null
+}

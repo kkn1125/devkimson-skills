@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/homelab-wireguard-vpn/SKILL.md",
+  "metadata": {
+    "name": "homelab-wireguard-vpn",
+    "description": "WireGuard VPN server setup, peer configuration, key generation, split tunneling vs full tunnel routing, and remote access to a home network from mobile and laptop clients. Use when setting up WireGuard for remote access to a home network, or deciding between split and full tunnel routing.",
+    "metadata": {
+      "origin": "community"
+    }
+  },
+  "variant": null
+}

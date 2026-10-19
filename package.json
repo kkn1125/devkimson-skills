@@ -1,0 +1,11 @@
+{
+  "name": "devkimson-skills",
+  "private": true,
+  "scripts": {
+    "test": "node --test tests/ecc-port.test.cjs",
+    "ecc:validate": "node scripts/validate-ecc.cjs"
+  },
+  "devDependencies": {
+    "yaml": "2.9.0"
+  }
+}

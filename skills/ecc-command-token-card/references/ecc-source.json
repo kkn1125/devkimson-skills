@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/token-card.md",
+  "metadata": {
+    "description": "Render a token-usage stat card from local agent session logs and commit it to the repo. Invokes the token-card skill.",
+    "argument-hint": "[--out PATH] [--theme auto|light|dark] [--dry-run]"
+  },
+  "variant": null
+}

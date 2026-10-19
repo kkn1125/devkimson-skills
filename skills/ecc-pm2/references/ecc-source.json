@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/pm2.md",
+  "metadata": {
+    "description": "Analyze a project and generate PM2 service commands for detected frontend, backend, or database services."
+  },
+  "variant": null
+}

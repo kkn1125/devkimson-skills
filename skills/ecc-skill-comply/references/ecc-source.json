@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/skill-comply/SKILL.md",
+  "metadata": {
+    "name": "skill-comply",
+    "description": "Visualize whether skills, rules, and agent definitions are actually followed — auto-generates scenarios at 3 prompt strictness levels, runs agents, classifies behavioral sequences, and reports compliance rates with full tool call timelines. Use when checking whether agents actually follow the skills, rules, and definitions they were given, rather than assuming they do.",
+    "metadata": {
+      "origin": "ECC"
+    },
+    "tools": "Read, Bash"
+  },
+  "variant": null
+}

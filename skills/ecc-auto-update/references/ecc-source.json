@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/auto-update.md",
+  "metadata": {
+    "description": "Pull the latest ECC repo changes and reinstall the current managed targets.",
+    "disable-model-invocation": true
+  },
+  "variant": null
+}

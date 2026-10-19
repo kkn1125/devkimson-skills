@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/tdd-guide.md",
+  "metadata": {
+    "name": "tdd-guide",
+    "description": "Test-Driven Development specialist enforcing write-tests-first methodology. Use PROACTIVELY when writing new features, fixing bugs, or refactoring code. Ensures 80%+ test coverage.",
+    "tools": "Read, Write, Edit, Bash, Grep",
+    "model": "sonnet"
+  },
+  "variant": null
+}

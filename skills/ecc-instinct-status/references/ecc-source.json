@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/instinct-status.md",
+  "metadata": {
+    "name": "instinct-status",
+    "description": "Show learned instincts (project + global) with confidence",
+    "command": true
+  },
+  "variant": null
+}

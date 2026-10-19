@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/orch-add-feature/SKILL.md",
+  "metadata": {
+    "name": "orch-add-feature",
+    "description": "Orchestrate building a brand-new feature end to end — research, plan, TDD implementation, review, and gated commit — by delegating each phase to the matching ECC agent. Use when adding a capability that does not exist yet.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

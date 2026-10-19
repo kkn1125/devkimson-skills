@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/benchmark/SKILL.md",
+  "metadata": {
+    "name": "benchmark",
+    "description": "Measure performance baselines and detect regressions across browser Core Web Vitals (LCP, INP, CLS, page weight), API endpoint latency percentiles, and build/test feedback times, with before/after comparison stored in git-tracked .ecc/benchmarks JSON. Use when checking page speed, responding to 'it feels slow' reports, verifying launch performance targets, or comparing stack alternatives.",
+    "license": "MIT",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

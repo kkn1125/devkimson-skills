@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/conversation-analyzer.md",
+  "metadata": {
+    "name": "conversation-analyzer",
+    "description": "Use this agent when analyzing conversation transcripts to find behaviors worth preventing with hooks. Triggered by /hookify without arguments.",
+    "model": "haiku",
+    "tools": "Read, Grep"
+  },
+  "variant": null
+}

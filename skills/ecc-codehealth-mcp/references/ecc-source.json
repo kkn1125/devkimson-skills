@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/codehealth-mcp/SKILL.md",
+  "metadata": {
+    "name": "codehealth-mcp",
+    "description": "Real-time structural Code Health via CodeScene MCP — review before edits, verify score deltas after changes, gate commits and PRs. Use when reviewing code quality, refactoring, checking if AI changes degraded a file, or before commit/PR.",
+    "metadata": {
+      "origin": "community"
+    }
+  },
+  "variant": null
+}

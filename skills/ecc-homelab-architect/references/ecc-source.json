@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/homelab-architect.md",
+  "metadata": {
+    "name": "homelab-architect",
+    "description": "Designs home and small-lab network plans from hardware inventory, goals, and operator experience level, with safe staged changes and rollback guidance.",
+    "tools": "Read, Grep",
+    "model": "sonnet"
+  },
+  "variant": null
+}

@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/save-session.md",
+  "metadata": {
+    "description": "Save current session state to a dated file in ~/.claude/session-data/ so work can be resumed in a future session with full context."
+  },
+  "variant": null
+}

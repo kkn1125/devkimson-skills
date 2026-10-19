@@ -1,0 +1,5 @@
+interface:
+  display_name: Nasiko CLI Bridge
+  short_description: Safely install and inspect the optional pinned Nasiko CLI
+  default_prompt: Use $ecc-nasiko-control-plane to inspect or explicitly install
+    the pinned Nasiko CLI without enabling telemetry or exposing secrets.

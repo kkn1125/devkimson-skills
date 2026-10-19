@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/healthcare-reviewer.md",
+  "metadata": {
+    "name": "healthcare-reviewer",
+    "description": "Reviews healthcare application code for clinical safety, CDSS accuracy, PHI compliance, and medical data integrity. Specialized for EMR/EHR, clinical decision support, and health information systems.",
+    "tools": "Read, Grep, Glob",
+    "model": "opus"
+  },
+  "variant": null
+}

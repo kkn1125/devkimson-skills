@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/email-ops/SKILL.md",
+  "metadata": {
+    "name": "email-ops",
+    "description": "Evidence-first mailbox triage, drafting, send verification, and sent-mail-safe follow-up workflow for ECC. Use when the user wants to organize email, draft or send through the real mail surface, or prove what landed in Sent.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

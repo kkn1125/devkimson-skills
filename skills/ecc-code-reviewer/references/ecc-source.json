@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/code-reviewer.md",
+  "metadata": {
+    "name": "code-reviewer",
+    "description": "Expert code review specialist. Proactively reviews code for quality, security, and maintainability. Use immediately after writing or modifying code. MUST BE USED for all code changes.",
+    "tools": "Read, Grep, Glob, Bash",
+    "model": "sonnet"
+  },
+  "variant": null
+}

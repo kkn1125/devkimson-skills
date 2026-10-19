@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "rules/fsharp",
+  "metadata": {
+    "description": "Consult ECC fsharp implementation, security, testing and workflow standards for that stack; reconcile with actual repository conventions."
+  },
+  "variant": null
+}

@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": null,
+  "metadata": {
+    "description": "Reproduce bugs, distinguish evidence from hypotheses, test competing causes, fix the shared root cause and verify regressions. Use for unexplained failures, flaky behavior, integration problems or debugging requests."
+  },
+  "variant": null
+}

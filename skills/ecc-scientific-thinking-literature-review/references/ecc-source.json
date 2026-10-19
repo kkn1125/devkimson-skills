@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/scientific-thinking-literature-review/SKILL.md",
+  "metadata": {
+    "name": "scientific-thinking-literature-review",
+    "description": "Systematic literature-review workflow for academic, biomedical, technical, and scientific topics, including search planning, source screening, synthesis, citation checks, and evidence logging. Use when the task is to find, screen, synthesize, and cite a body of academic or technical literature.",
+    "metadata": {
+      "origin": "community"
+    }
+  },
+  "variant": null
+}

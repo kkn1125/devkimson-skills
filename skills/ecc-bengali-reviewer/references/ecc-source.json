@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/bengali-reviewer.md",
+  "metadata": {
+    "name": "bengali-reviewer",
+    "description": "Reviews code handling Bengali (Bangla) text for Unicode correctness, proper normalization, script-aware processing, and internationalization best practices. Use when code processes, displays, or stores Bengali text.",
+    "tools": "Read, Grep, Glob",
+    "model": "sonnet"
+  },
+  "variant": null
+}

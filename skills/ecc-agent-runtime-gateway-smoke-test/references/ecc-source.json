@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/agent-runtime-gateway-smoke-test/SKILL.md",
+  "metadata": {
+    "name": "agent-runtime-gateway-smoke-test",
+    "description": "Verify a local agent API, temporary gateway tunnel, and remote sandbox callback with a tool-free task, then restore the original app connection.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

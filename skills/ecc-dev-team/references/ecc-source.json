@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/dev-team/SKILL.md",
+  "metadata": {
+    "name": "dev-team",
+    "description": "Simulate a collaborative dev team session where multiple role-based personas (PM, Architect, Developer, QA) respond to the same problem together in one session. Use when designing a feature, reviewing a proposal, or onboarding a new initiative and you want multi-role perspective without switching agents manually.",
+    "metadata": {
+      "origin": "community",
+      "inspired-by": "bmad-method (party mode)"
+    }
+  },
+  "variant": null
+}

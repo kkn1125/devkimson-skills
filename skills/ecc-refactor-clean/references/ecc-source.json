@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/refactor-clean.md",
+  "metadata": {
+    "description": "Safely identify and remove dead code with verification after each change."
+  },
+  "variant": null
+}

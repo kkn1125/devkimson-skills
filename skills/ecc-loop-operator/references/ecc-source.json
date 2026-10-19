@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/loop-operator.md",
+  "metadata": {
+    "name": "loop-operator",
+    "description": "Operate autonomous agent loops, monitor progress, and intervene safely when loops stall.",
+    "tools": "Read, Grep, Glob, Bash, Edit",
+    "model": "sonnet",
+    "color": "orange"
+  },
+  "variant": null
+}

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/scientific-db-uspto-database/SKILL.md",
+  "metadata": {
+    "name": "scientific-db-uspto-database",
+    "description": "USPTO patent and trademark data workflow for official record lookup, PatentSearch queries, TSDR checks, assignment data, and reproducible IP research logs. Use when a task needs official United States patent or trademark records from USPTO systems.",
+    "metadata": {
+      "origin": "community"
+    }
+  },
+  "variant": null
+}

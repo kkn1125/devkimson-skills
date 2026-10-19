@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/scientific-thinking-scholar-evaluation/SKILL.md",
+  "metadata": {
+    "name": "scientific-thinking-scholar-evaluation",
+    "description": "Structured scholarly-work evaluation for papers, proposals, literature reviews, methods sections, evidence quality, citation support, and research-writing feedback. Use when evaluating academic or scientific work — papers, proposals, methods sections, or evidence quality — against a repeatable rubric.",
+    "metadata": {
+      "origin": "community"
+    }
+  },
+  "variant": null
+}

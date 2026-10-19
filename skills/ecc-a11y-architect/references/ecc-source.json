@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/a11y-architect.md",
+  "metadata": {
+    "name": "a11y-architect",
+    "description": "Accessibility Architect specializing in WCAG 2.2 compliance for Web and Native platforms. Use PROACTIVELY when designing UI components, establishing design systems, or auditing code for inclusive user experiences.",
+    "model": "sonnet",
+    "tools": "Read, Write, Edit, Grep, Glob"
+  },
+  "variant": null
+}

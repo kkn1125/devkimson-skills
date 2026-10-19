@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/mysql-patterns/SKILL.md",
+  "metadata": {
+    "name": "mysql-patterns",
+    "description": "MySQL and MariaDB schema, query, indexing, transaction, replication, and connection-pool patterns for production backends. Use when designing MySQL or MariaDB schemas and indexes, or when a query, transaction, or replica lags.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

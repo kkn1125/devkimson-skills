@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/opensource-forker.md",
+  "metadata": {
+    "name": "opensource-forker",
+    "description": "Fork any project for open-sourcing. Copies files, strips secrets and credentials (20+ patterns), replaces internal references with placeholders, generates .env.example, and cleans git history. First stage of the opensource-pipeline skill.",
+    "tools": "Read, Write, Edit, Bash, Grep, Glob",
+    "model": "haiku"
+  },
+  "variant": null
+}

@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/rust-patterns/SKILL.md",
+  "metadata": {
+    "name": "rust-patterns",
+    "description": "Idiomatic Rust patterns, ownership, error handling, traits, concurrency, and best practices for building safe, performant applications. Use when writing or reviewing Rust code and ownership, error handling, traits, or concurrency is in question.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

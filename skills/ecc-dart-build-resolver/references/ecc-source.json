@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/dart-build-resolver.md",
+  "metadata": {
+    "name": "dart-build-resolver",
+    "description": "Dart/Flutter build, analysis, and dependency error resolution specialist. Fixes `dart analyze` errors, Flutter compilation failures, pub dependency conflicts, and build_runner issues with minimal, surgical changes. Use when Dart/Flutter builds fail.",
+    "tools": "Read, Write, Edit, Bash, Grep, Glob",
+    "model": "sonnet"
+  },
+  "variant": null
+}

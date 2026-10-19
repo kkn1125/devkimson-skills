@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/prp-plan.md",
+  "metadata": {
+    "description": "Create comprehensive feature implementation plan with codebase analysis and pattern extraction",
+    "argument-hint": "<feature description | path/to/prd.md>"
+  },
+  "variant": null
+}

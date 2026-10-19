@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/silent-failure-hunter.md",
+  "metadata": {
+    "name": "silent-failure-hunter",
+    "description": "Review code for silent failures, swallowed errors, bad fallbacks, and missing error propagation.",
+    "model": "sonnet",
+    "tools": "Read, Grep, Glob, Bash"
+  },
+  "variant": null
+}

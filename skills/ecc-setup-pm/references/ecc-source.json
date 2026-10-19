@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/setup-pm.md",
+  "metadata": {
+    "description": "Configure your preferred package manager (npm/pnpm/yarn/bun)",
+    "disable-model-invocation": true
+  },
+  "variant": null
+}

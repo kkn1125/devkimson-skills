@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/prp-pr.md",
+  "metadata": {
+    "description": "Alias of /pr for the PRP workflow series. Use when creating a pull request mid-PRP workflow; otherwise use /pr.",
+    "argument-hint": "[base-branch] (default: main)"
+  },
+  "variant": null
+}

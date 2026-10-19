@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/prp-implement.md",
+  "metadata": {
+    "description": "Execute an implementation plan with rigorous validation loops",
+    "argument-hint": "<path/to/plan.md>"
+  },
+  "variant": null
+}

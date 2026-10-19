@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/ecc-tools-cost-audit/SKILL.md",
+  "metadata": {
+    "name": "ecc-tools-cost-audit",
+    "description": "Evidence-first ECC Tools burn and billing audit workflow. Use when investigating runaway PR creation, quota bypass, premium-model leakage, duplicate jobs, or GitHub App cost spikes in the ECC Tools repo.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

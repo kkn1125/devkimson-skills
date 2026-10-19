@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/code-architect.md",
+  "metadata": {
+    "name": "code-architect",
+    "description": "Designs feature architectures by analyzing existing codebase patterns and conventions, then providing implementation blueprints with concrete files, interfaces, data flow, and build order.",
+    "model": "sonnet",
+    "tools": "Read, Grep, Glob, Bash"
+  },
+  "variant": null
+}

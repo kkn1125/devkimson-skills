@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/cisco-ios-patterns/SKILL.md",
+  "metadata": {
+    "name": "cisco-ios-patterns",
+    "description": "Cisco IOS and IOS-XE review patterns for show commands, config hierarchy, wildcard masks, ACL placement, interface hygiene, and safe change-window verification. Use when reading, writing, or reviewing Cisco IOS / IOS-XE configuration or planning a change window.",
+    "metadata": {
+      "origin": "community"
+    }
+  },
+  "variant": null
+}

@@ -1,0 +1,11 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/agent-self-evaluation/SKILL.md",
+  "metadata": {
+    "name": "agent-self-evaluation",
+    "description": "Use after completing any non-trivial task. The agent self-rates its output on 5 axes — accuracy, completeness, clarity, actionability, conciseness — with concrete evidence per criterion. Produces a structured 1-5 scorecard with specific improvement suggestions.",
+    "origin": "ECC"
+  },
+  "variant": null
+}

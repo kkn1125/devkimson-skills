@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/rules-distill/SKILL.md",
+  "metadata": {
+    "name": "rules-distill",
+    "description": "Scan skills to extract cross-cutting principles and distill them into rules — append, revise, or create new rule files. Use when the same principle keeps recurring across skills and belongs in a rule file instead.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

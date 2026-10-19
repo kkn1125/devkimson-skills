@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/django-celery/SKILL.md",
+  "metadata": {
+    "name": "django-celery",
+    "description": "Django + Celery async task patterns — configuration, task design, beat scheduling, retries, canvas workflows, monitoring, and testing. Use when adding background jobs, scheduled tasks, or async processing to a Django app.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

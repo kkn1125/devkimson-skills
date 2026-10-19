@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/social-graph-ranker/SKILL.md",
+  "metadata": {
+    "name": "social-graph-ranker",
+    "description": "Weighted social-graph ranking for warm intro discovery, bridge scoring, and network gap analysis across X and LinkedIn. Use when the user wants the reusable graph-ranking engine itself, not the broader outreach or network-maintenance workflow layered on top of it.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

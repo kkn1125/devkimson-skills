@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/prp-commit.md",
+  "metadata": {
+    "description": "Quick commit with natural language file targeting — describe what to commit in plain English",
+    "argument-hint": "[target description] (blank = all changes)"
+  },
+  "variant": null
+}

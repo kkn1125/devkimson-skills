@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/springboot-patterns/SKILL.md",
+  "metadata": {
+    "name": "springboot-patterns",
+    "description": "Spring Boot architecture patterns, REST API design, layered services, data access, caching, async processing, and logging. Use for Java Spring Boot backend work. Use when building or reviewing a Spring Boot backend — REST layer, services, data access, caching, or async work.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

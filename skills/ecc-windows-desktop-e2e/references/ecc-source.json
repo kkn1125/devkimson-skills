@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/windows-desktop-e2e/SKILL.md",
+  "metadata": {
+    "name": "windows-desktop-e2e",
+    "description": "E2E testing for Windows native desktop apps (WPF, WinForms, Win32/MFC, Qt) using pywinauto and Windows UI Automation. Use when writing E2E tests for a Windows native desktop app with pywinauto or UI Automation.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}

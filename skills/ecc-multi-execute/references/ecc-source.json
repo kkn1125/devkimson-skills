@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "commands/multi-execute.md",
+  "metadata": {
+    "description": "Execute a multi-model implementation plan while preserving Claude as the only filesystem writer."
+  },
+  "variant": null
+}

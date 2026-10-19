@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "agents/code-explorer.md",
+  "metadata": {
+    "name": "code-explorer",
+    "description": "Deeply analyzes existing codebase features by tracing execution paths, mapping architecture layers, and documenting dependencies to inform new development.",
+    "model": "sonnet",
+    "tools": "Read, Grep, Glob"
+  },
+  "variant": null
+}

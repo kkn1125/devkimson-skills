@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/affaan-m/ECC",
+  "revision": "76aaa77df6adc5b889e689007bf99b9a4f74af34",
+  "source": "skills/automation-audit-ops/SKILL.md",
+  "metadata": {
+    "name": "automation-audit-ops",
+    "description": "Evidence-first automation inventory and overlap audit workflow for ECC. Use when the user wants to know which jobs, hooks, connectors, MCP servers, or wrappers are live, broken, redundant, or missing before fixing anything.",
+    "metadata": {
+      "origin": "ECC"
+    }
+  },
+  "variant": null
+}
