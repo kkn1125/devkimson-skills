@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codebase Guide"
+  short_description: "Trace maintenance tasks through project structure and impacts"
+  default_prompt: "Use $codebase-guide to map the relevant structure, stack and code conventions, trace my maintenance task's impact, and save or refresh a Markdown guide with diagrams and evidence."
