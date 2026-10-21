@@ -4,6 +4,7 @@
 
 스킬은 `skills/<skill-name>/SKILL.md` 구조로 관리하며 이름은 소문자 하이픈 형식만 사용합니다.
 
+- [`excalidraw-diagram`](skills/excalidraw-diagram/SKILL.md): Excalidraw 파일 생성과 Office 함께 그리기의 배치·연결·시각 검토 지침입니다. `$excalidraw-diagram`으로 호출합니다.
 - [`ui-ux-evidence-review`](skills/ui-ux-evidence-review/SKILL.md): 화면·코드·실제 브라우저를 근거로 UI/UX 문제의 심각도와 확신도를 구분합니다. 기존 `ui-review`와 별도 스킬이며 `$ui-ux-evidence-review`로 호출합니다.
 
 ```powershell
