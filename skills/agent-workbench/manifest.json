@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "version": "1.0.1",
+  "client": "codex",
+  "serverName": "agent-workbench",
+  "defaultUrl": "https://agent-mcp.devkimson.kro.kr/mcp",
+  "defaultTokenEnv": "AGENT_MCP_TOKEN",
+  "canonical": {
+    "protocol": "agent-protocol/70-agent-workbench.md",
+    "skill": "ai-workspace/60-skills/agent-workbench/SKILL.md"
+  },
+  "files": ["package.json", "manifest.json", "cli.mjs", "workbench.mjs", "bundle.mjs", "README.md", "SKILL.md", "test/portable.test.mjs"]
+}
