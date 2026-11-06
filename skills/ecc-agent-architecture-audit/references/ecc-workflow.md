@@ -123,7 +123,7 @@ Use `rg` to search for anti-patterns:
 
 ```bash
 # Tool requirements expressed only in prompt text (not code)
-rg "must.*tool|必须.*工具|required.*call" --type md
+rg -P "must.*tool|\x{5FC5}\x{987B}.*\x{5DE5}\x{5177}|required.*call" --type md
 
 # Tool execution without validation
 rg "tool_call|toolCall|tool_use" --type py --type ts

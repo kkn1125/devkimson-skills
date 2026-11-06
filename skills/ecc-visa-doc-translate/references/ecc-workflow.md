@@ -43,12 +43,12 @@ When the user provides an image file path, AUTOMATICALLY execute the following s
 
 ## Supported Documents
 
-- Bank deposit certificates (存款证明)
-- Income certificates (收入证明)
-- Employment certificates (在职证明)
-- Retirement certificates (退休证明)
-- Property certificates (房产证明)
-- Business licenses (营业执照)
+- Bank deposit certificates
+- Income certificates
+- Employment certificates
+- Retirement certificates
+- Property certificates
+- Business licenses
 - ID cards and passports
 - Other official documents
 

@@ -1,39 +1,39 @@
-# Step 4：锻造名字
+# Step 4: Forge a Name
 
-名字是灵魂的「第一句话」——还没开始对话，名字已经告诉你这是谁了。
+The name is the soul's first sentence: it tells you who this is before the conversation begins.
 
-## 命名策略（按灵魂类型推荐）
+## Naming Strategies by Persona Type
 
-| 灵魂类型 | 推荐策略 | 示例 |
+| Persona type | Recommended strategy | Examples |
 |---------|---------|------|
-| 有文化深度的 | 致敬式 | Dewey（杜威）、Marcus、Quill |
-| 幽默反差的 | 反差式 | DadBot 3000、老周Pro |
-| 功能导向的 | 隐喻式 | Echo、Pulse、Patch |
-| 世界观完整的 | 身份暗示式 | Lady Ashworth、Shiye |
-| 不端着的 | 自嘲式 | Void、Intern |
-| 慢慢养的 | 极简式 | Jasper、小壳 |
+| Cultural depth | Homage | Dewey, Marcus, Quill |
+| Humorous contrast | Contrast | DadBot 3000, Old Zhou Pro |
+| Function-oriented | Metaphor | Echo, Pulse, Patch |
+| Rich worldview | Identity hint | Lady Ashworth, Shiye |
+| Unpretentious | Self-deprecation | Void, Intern |
+| Grows over time | Minimalism | Jasper, Little Shell |
 
-## 输出要求
+## Output Requirements
 
-为用户提供 **3 个候选名字**，每个附带：
-- 名字
-- 命名策略类型
-- 为什么这个名字和灵魂搭配
+Offer **three candidate names**, each with:
+- The name.
+- Its naming strategy.
+- Why it fits the soul.
 
 ```markdown
-## 名字候选
+## Candidate Names
 
-1. **[名字]**（[策略类型]）—— [一句话解释为什么搭]
-2. **[名字]**（[策略类型]）—— [一句话解释为什么搭]
-3. **[名字]**（[策略类型]）—— [一句话解释为什么搭]
+1. **[Name]** ([Strategy]) — [One sentence explaining the fit]
+2. **[Name]** ([Strategy]) — [One sentence explaining the fit]
+3. **[Name]** ([Strategy]) — [One sentence explaining the fit]
 ```
 
-展示后说出自己最偏爱哪个（附理由），但把选择权交给用户（参见 SKILL.md 对话语气指南）
+State your favorite and why, while leaving the choice to the user (see the SKILL.md conversation tone guide).
 
-## 命名红线
+## Naming Limits
 
-- 不要用 agent-1、my-bot、小助手
-- 不要超过 3 个单词
-- 不要和常见工具/框架名冲突
-- 好记、好念、好打字
-- 名字读完就能猜到大致性格
+- Avoid names such as agent-1, my-bot, or Little Assistant.
+- Use no more than three words.
+- Avoid collisions with common tool or framework names.
+- Make it easy to remember, pronounce, and type.
+- The name should hint at the character's personality.

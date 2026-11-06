@@ -2220,10 +2220,10 @@
       "source": "skills/generating-python-installer/SKILL.md",
       "sourceSha256": "47e73ef601d900be3b5ccb5d1a1ba2371d3e46c67b5243c1810e51cd2d8f62f3",
       "profile": "domain",
-      "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use when a Python app must ship as a minimal, fast-starting Windows installer; not for basic script-to-exe conversion. 中文触发：Nuitka 极限优化、Python 商业打包、极限编译 Python、dist 瘦身、DLL 分析、最小安装包、最快启动、商业级打包风格",
+      "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use when a Python app must ship as a minimal, fast-starting Windows installer; not for basic script-to-exe conversion. Trigger concepts: advanced Nuitka optimization, commercial Python packaging, aggressive compilation, dist slimming, DLL analysis, minimal installers, and fast startup.",
       "attribution": {
         "name": "generating-python-installer",
-        "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use when a Python app must ship as a minimal, fast-starting Windows installer; not for basic script-to-exe conversion. 中文触发：Nuitka 极限优化、Python 商业打包、极限编译 Python、dist 瘦身、DLL 分析、最小安装包、最快启动、商业级打包风格"
+        "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use when a Python app must ship as a minimal, fast-starting Windows installer; not for basic script-to-exe conversion. Trigger concepts: advanced Nuitka optimization, commercial Python packaging, aggressive compilation, dist slimming, DLL analysis, minimal installers, and fast startup."
       },
       "variants": []
     },
@@ -3085,10 +3085,10 @@
       "source": "skills/living-docs-governance/SKILL.md",
       "sourceSha256": "e8c22a1f69743e256c6d6df138d99e49d22e29effbf008dfe2328b7fdc76247e",
       "profile": "domain",
-      "description": "Keep a long-lived project's documentation from rotting by assigning existing project docs clear constitution, map, status, and history roles, then wiring the active agent harness to those canonical sources. Use in the maintain phase when docs drift from code, agents lose context between sessions, or intentional removals keep being recreated. Prefer adopting the repository's current docs structure over creating new root files. 中文触发：文档治理、活文档、项目状态追踪、防文档漂移、项目地图、健康仪表盘、删除区、长期项目治理",
+      "description": "Keep a long-lived project's documentation from rotting by assigning existing project docs clear constitution, map, status, and history roles, then wiring the active agent harness to those canonical sources. Use in the maintain phase when docs drift from code, agents lose context between sessions, or intentional removals keep being recreated. Prefer adopting the repository's current docs structure over creating new root files. Trigger concepts: documentation governance, living documentation, project status tracking, drift prevention, project maps, health dashboards, deletion zones, and long-term project governance.",
       "attribution": {
         "name": "living-docs-governance",
-        "description": "Keep a long-lived project's documentation from rotting by assigning existing project docs clear constitution, map, status, and history roles, then wiring the active agent harness to those canonical sources. Use in the maintain phase when docs drift from code, agents lose context between sessions, or intentional removals keep being recreated. Prefer adopting the repository's current docs structure over creating new root files. 中文触发：文档治理、活文档、项目状态追踪、防文档漂移、项目地图、健康仪表盘、删除区、长期项目治理",
+        "description": "Keep a long-lived project's documentation from rotting by assigning existing project docs clear constitution, map, status, and history roles, then wiring the active agent harness to those canonical sources. Use in the maintain phase when docs drift from code, agents lose context between sessions, or intentional removals keep being recreated. Prefer adopting the repository's current docs structure over creating new root files. Trigger concepts: documentation governance, living documentation, project status tracking, drift prevention, project maps, health dashboards, deletion zones, and long-term project governance.",
         "metadata": {
           "origin": "ECC"
         }
@@ -3144,10 +3144,10 @@
       "source": "skills/loop-design-check/SKILL.md",
       "sourceSha256": "d48c239c8b9ff253d103d7de7b9839c5bf9dbd3c90eddef7c4ac612b28d71bbd",
       "profile": "orchestration",
-      "description": "Codex-adapted loop-design-check procedure; optional runtimes are not bundled. Reference scope: Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. 中文触发：写 loop、设计 loop、做一个 loop、检查 loop 对不对、loop 体检、loop 会不会跑飞、可判定目标、五个崩法、plan build judge。",
+      "description": "Codex-adapted loop-design-check procedure; optional runtimes are not bundled. Reference scope: Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. Trigger concepts: writing and designing loops, checking loop correctness, loop health checks, runaway prevention, machine-decidable goals, five failure modes, and plan/build/judge.",
       "attribution": {
         "name": "loop-design-check",
-        "description": "Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. 中文触发：写 loop、设计 loop、做一个 loop、检查 loop 对不对、loop 体检、loop 会不会跑飞、可判定目标、五个崩法、plan build judge。",
+        "description": "Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. Trigger concepts: writing and designing loops, checking loop correctness, loop health checks, runaway prevention, machine-decidable goals, five failure modes, and plan/build/judge.",
         "metadata": {
           "origin": "ECC"
         }
@@ -3683,10 +3683,10 @@
       "source": "skills/openclaw-persona-forge/SKILL.md",
       "sourceSha256": "3498442cf72ee7efbc4cc56553b48dbbb1a26d1d95eca4037aede69e164a9875",
       "profile": "domain",
-      "description": "为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生成统一风格头像图片。 当用户需要创建、设计或定制 OpenClaw 龙虾灵魂时使用。 不适用于：微调已有 SOUL.md、非 OpenClaw 平台的角色设计、纯工具型无性格 Agent。 触发词：龙虾灵魂、虾魂、OpenClaw 灵魂、养虾灵魂、龙虾角色、龙虾定位、 龙虾剧本杀角色、龙虾游戏角色、龙虾 NPC、龙虾性格、龙虾背景故事、 lobster soul、lobster character、抽卡、随机龙虾、龙虾 SOUL、gacha。 Use when creating, designing, or customizing an OpenClaw lobster persona — identity, SOUL.md, name, or avatar prompt.",
+      "description": "Forge a complete lobster persona for an OpenClaw AI agent from user preferences or a random gacha draw. Provide identity, SOUL.md, character-specific boundaries, a name, and an avatar prompt. Use an available reviewed image-generation skill for a consistent avatar when permitted. Use when creating, designing, or customizing an OpenClaw lobster persona. Not for minor edits to an existing SOUL.md, personas for other platforms, or purely functional agents without a personality. Trigger concepts: lobster soul, OpenClaw soul, lobster character, identity, roleplay or game character, NPC, personality, backstory, random lobster, SOUL, and gacha.",
       "attribution": {
         "name": "openclaw-persona-forge",
-        "description": "为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生成统一风格头像图片。 当用户需要创建、设计或定制 OpenClaw 龙虾灵魂时使用。 不适用于：微调已有 SOUL.md、非 OpenClaw 平台的角色设计、纯工具型无性格 Agent。 触发词：龙虾灵魂、虾魂、OpenClaw 灵魂、养虾灵魂、龙虾角色、龙虾定位、 龙虾剧本杀角色、龙虾游戏角色、龙虾 NPC、龙虾性格、龙虾背景故事、 lobster soul、lobster character、抽卡、随机龙虾、龙虾 SOUL、gacha。 Use when creating, designing, or customizing an OpenClaw lobster persona — identity, SOUL.md, name, or avatar prompt.",
+        "description": "Forge a complete lobster persona for an OpenClaw AI agent from user preferences or a random gacha draw. Provide identity, SOUL.md, character-specific boundaries, a name, and an avatar prompt. Use an available reviewed image-generation skill for a consistent avatar when permitted. Use when creating, designing, or customizing an OpenClaw lobster persona. Not for minor edits to an existing SOUL.md, personas for other platforms, or purely functional agents without a personality. Trigger concepts: lobster soul, OpenClaw soul, lobster character, identity, roleplay or game character, NPC, personality, backstory, random lobster, SOUL, and gacha.",
         "metadata": {
           "origin": "community"
         }
@@ -4162,10 +4162,10 @@
       "source": "skills/prompt-optimizer/SKILL.md",
       "sourceSha256": "e98058f34c3338014d0b9ef0c821d932d6820284d40d1eaf4f716bceb9147db0",
       "profile": "domain",
-      "description": "Analyze draft prompts, detect intent and missing context, match ECC commands, skills, and agents, and output a ready-to-paste optimized prompt with diagnosis and rationale — advisory only, never executes the task. Use when the user says 'optimize prompt', 'improve my prompt', 'rewrite this prompt', 'help me prompt', 优化prompt, 改进prompt, 怎么写prompt, or 帮我优化这个指令; not for requests to optimize code or performance.",
+      "description": "Analyze draft prompts, detect intent and missing context, match ECC commands, skills, and agents, and output a ready-to-paste optimized prompt with diagnosis and rationale — advisory only, never executes the task. Use when the user says 'optimize prompt', 'improve my prompt', 'rewrite this prompt', 'help me prompt', 'how should I write this prompt', or 'help me improve this instruction'; not for requests to optimize code or performance.",
       "attribution": {
         "name": "prompt-optimizer",
-        "description": "Analyze draft prompts, detect intent and missing context, match ECC commands, skills, and agents, and output a ready-to-paste optimized prompt with diagnosis and rationale — advisory only, never executes the task. Use when the user says 'optimize prompt', 'improve my prompt', 'rewrite this prompt', 'help me prompt', 优化prompt, 改进prompt, 怎么写prompt, or 帮我优化这个指令; not for requests to optimize code or performance.",
+        "description": "Analyze draft prompts, detect intent and missing context, match ECC commands, skills, and agents, and output a ready-to-paste optimized prompt with diagnosis and rationale — advisory only, never executes the task. Use when the user says 'optimize prompt', 'improve my prompt', 'rewrite this prompt', 'help me prompt', 'how should I write this prompt', or 'help me improve this instruction'; not for requests to optimize code or performance.",
         "metadata": {
           "origin": "community",
           "author": "YannJY02",

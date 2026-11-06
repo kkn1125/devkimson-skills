@@ -75,7 +75,7 @@
         },
         {
           "path": "skills/ecc-agent-architecture-audit/references/ecc-workflow.md",
-          "sha256": "2a50e754858c5fd01a9e955fb210bd2f9005b6cbba8444e3094fac13010c01e7"
+          "sha256": "5fdf468970d85f14e4b038178c14cda93bfe81aa35754e1523d6d61645c2b819"
         },
         {
           "path": "skills/ecc-agent-architecture-audit/SKILL.md",
@@ -561,7 +561,7 @@
         },
         {
           "path": "skills/ecc-ai-regression-testing/references/ecc-workflow.md",
-          "sha256": "ddbbc7f4bb834bb7b933a2704977d58b39bb1c58ef0ea2df5e181a2cb5ee1b8f"
+          "sha256": "d8109a201e28c1cbf61b15dd4ed1f902cc604a25f8161abedad9d4eb1e75d78b"
         },
         {
           "path": "skills/ecc-ai-regression-testing/SKILL.md",
@@ -3953,7 +3953,7 @@
         },
         {
           "path": "skills/ecc-docs-governance/references/ecc-core-files/scripts/audit-docs.py",
-          "sha256": "889156ec7b22fa5f08b4f9e5b9a9c918c53b357b24c5aa9f322fdc7e97107622"
+          "sha256": "b79f259d1b95f094794f268013edd5462f4aa7f0c45019f3fe65b36388bb8b85"
         },
         {
           "path": "skills/ecc-docs-governance/references/ecc-core-files/scripts/markdown_links.py",
@@ -3969,7 +3969,7 @@
         },
         {
           "path": "skills/ecc-docs-governance/scripts/audit-docs.py",
-          "sha256": "889156ec7b22fa5f08b4f9e5b9a9c918c53b357b24c5aa9f322fdc7e97107622"
+          "sha256": "b79f259d1b95f094794f268013edd5462f4aa7f0c45019f3fe65b36388bb8b85"
         },
         {
           "path": "skills/ecc-docs-governance/scripts/markdown_links.py",
@@ -5122,10 +5122,10 @@
       "source": "skills/generating-python-installer/SKILL.md",
       "sourceSha256": "47e73ef601d900be3b5ccb5d1a1ba2371d3e46c67b5243c1810e51cd2d8f62f3",
       "profile": "domain",
-      "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use when a Python app must ship as a minimal, fast-starting Windows installer; not for basic script-to-exe conversion. 中文触发：Nuitka 极限优化、Python 商业打包、极限编译 Python、dist 瘦身、DLL 分析、最小安装包、最快启动、商业级打包风格",
+      "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use when a Python app must ship as a minimal, fast-starting Windows installer; not for basic script-to-exe conversion. Trigger concepts: advanced Nuitka optimization, commercial Python packaging, aggressive compilation, dist slimming, DLL analysis, minimal installers, and fast startup.",
       "attribution": {
         "name": "generating-python-installer",
-        "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use when a Python app must ship as a minimal, fast-starting Windows installer; not for basic script-to-exe conversion. 中文触发：Nuitka 极限优化、Python 商业打包、极限编译 Python、dist 瘦身、DLL 分析、最小安装包、最快启动、商业级打包风格"
+        "description": "Commercial-grade Python installer expert for Windows: Nuitka extreme compilation, dist slimming, DLL footprint analysis, and Inno Setup packaging to ship the smallest, fastest installers. Use when a Python app must ship as a minimal, fast-starting Windows installer; not for basic script-to-exe conversion. Trigger concepts: advanced Nuitka optimization, commercial Python packaging, aggressive compilation, dist slimming, DLL analysis, minimal installers, and fast startup."
       },
       "variants": [],
       "files": [
@@ -5135,15 +5135,15 @@
         },
         {
           "path": "skills/ecc-generating-python-installer/references/ecc-source.json",
-          "sha256": "0c85aaa031ac5eddcc4db4b6b05ad7f1b9dde90b07863eb4bb12373909cc73a3"
+          "sha256": "5d1ad84eeefc97494c3104c54e70ac242a8df8413e736af838ed8797173d178b"
         },
         {
           "path": "skills/ecc-generating-python-installer/references/ecc-workflow.md",
-          "sha256": "7e95320a40799663a126384cbd876ff4e5d8bfc5e9cb766a0ccee4067c3e9afb"
+          "sha256": "811d620b0dfb70fa5abac9d55b794e3a540c591de9479b2e65916b5e7b012c80"
         },
         {
           "path": "skills/ecc-generating-python-installer/SKILL.md",
-          "sha256": "7f426f4fd12d69d650297e2a45fbaa4e5589a3b470a5fb0fe9c15c81535323a8"
+          "sha256": "a6227b35e61630624bbe03a1a12ba6510fd9a42ed34ed680b6e5558905ba07ef"
         }
       ]
     },
@@ -5354,7 +5354,7 @@
         },
         {
           "path": "skills/ecc-growth-log/references/ecc-upstream.md",
-          "sha256": "89ae48efb91ed886b20be926bac0e17ff6473e2962aaaaa71c4acc2bccaeea1e"
+          "sha256": "de65d0906a3d6a98eda41e645fdf51a495acf0054256b0759428fa051d792bfa"
         },
         {
           "path": "skills/ecc-growth-log/references/ecc-workflow.md",
@@ -6955,10 +6955,10 @@
       "source": "skills/living-docs-governance/SKILL.md",
       "sourceSha256": "e8c22a1f69743e256c6d6df138d99e49d22e29effbf008dfe2328b7fdc76247e",
       "profile": "domain",
-      "description": "Keep a long-lived project's documentation from rotting by assigning existing project docs clear constitution, map, status, and history roles, then wiring the active agent harness to those canonical sources. Use in the maintain phase when docs drift from code, agents lose context between sessions, or intentional removals keep being recreated. Prefer adopting the repository's current docs structure over creating new root files. 中文触发：文档治理、活文档、项目状态追踪、防文档漂移、项目地图、健康仪表盘、删除区、长期项目治理",
+      "description": "Keep a long-lived project's documentation from rotting by assigning existing project docs clear constitution, map, status, and history roles, then wiring the active agent harness to those canonical sources. Use in the maintain phase when docs drift from code, agents lose context between sessions, or intentional removals keep being recreated. Prefer adopting the repository's current docs structure over creating new root files. Trigger concepts: documentation governance, living documentation, project status tracking, drift prevention, project maps, health dashboards, deletion zones, and long-term project governance.",
       "attribution": {
         "name": "living-docs-governance",
-        "description": "Keep a long-lived project's documentation from rotting by assigning existing project docs clear constitution, map, status, and history roles, then wiring the active agent harness to those canonical sources. Use in the maintain phase when docs drift from code, agents lose context between sessions, or intentional removals keep being recreated. Prefer adopting the repository's current docs structure over creating new root files. 中文触发：文档治理、活文档、项目状态追踪、防文档漂移、项目地图、健康仪表盘、删除区、长期项目治理",
+        "description": "Keep a long-lived project's documentation from rotting by assigning existing project docs clear constitution, map, status, and history roles, then wiring the active agent harness to those canonical sources. Use in the maintain phase when docs drift from code, agents lose context between sessions, or intentional removals keep being recreated. Prefer adopting the repository's current docs structure over creating new root files. Trigger concepts: documentation governance, living documentation, project status tracking, drift prevention, project maps, health dashboards, deletion zones, and long-term project governance.",
         "metadata": {
           "origin": "ECC"
         }
@@ -6971,7 +6971,7 @@
         },
         {
           "path": "skills/ecc-living-docs-governance/references/ecc-source.json",
-          "sha256": "dfe231dc81f450e11d648ecd0e51a88224811dacc4713158124318da65ba4d71"
+          "sha256": "4cbfda542ba6afec740218fab65d399216343718f9012edfc272d6d91612b870"
         },
         {
           "path": "skills/ecc-living-docs-governance/references/ecc-workflow.md",
@@ -6979,7 +6979,7 @@
         },
         {
           "path": "skills/ecc-living-docs-governance/SKILL.md",
-          "sha256": "cf9109818fa708225b0b7af7cf11ad8be14756990cf74b25531e43dd6cdda54f"
+          "sha256": "934db0035336c107eed31d110fee164567619ee797dce4e5f0de43f5b0a4971b"
         }
       ]
     },
@@ -7068,10 +7068,10 @@
       "source": "skills/loop-design-check/SKILL.md",
       "sourceSha256": "d48c239c8b9ff253d103d7de7b9839c5bf9dbd3c90eddef7c4ac612b28d71bbd",
       "profile": "orchestration",
-      "description": "Codex-adapted loop-design-check procedure; optional runtimes are not bundled. Reference scope: Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. 中文触发：写 loop、设计 loop、做一个 loop、检查 loop 对不对、loop 体检、loop 会不会跑飞、可判定目标、五个崩法、plan build judge。",
+      "description": "Codex-adapted loop-design-check procedure; optional runtimes are not bundled. Reference scope: Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. Trigger concepts: writing and designing loops, checking loop correctness, loop health checks, runaway prevention, machine-decidable goals, five failure modes, and plan/build/judge.",
       "attribution": {
         "name": "loop-design-check",
-        "description": "Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. 中文触发：写 loop、设计 loop、做一个 loop、检查 loop 对不对、loop 体检、loop 会不会跑飞、可判定目标、五个崩法、plan build judge。",
+        "description": "Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. Trigger concepts: writing and designing loops, checking loop correctness, loop health checks, runaway prevention, machine-decidable goals, five failure modes, and plan/build/judge.",
         "metadata": {
           "origin": "ECC"
         }
@@ -7084,7 +7084,7 @@
         },
         {
           "path": "skills/ecc-loop-design-check/references/ecc-source.json",
-          "sha256": "4cb10c5858d0605f0b294b080c361ea5836a8ac7543e1b6d7a4eb7bc58067a74"
+          "sha256": "c621eabe25a5fc09302c2b7edfa3a9d0b8d5a13027aa83be746931986274c1b2"
         },
         {
           "path": "skills/ecc-loop-design-check/references/ecc-upstream.md",
@@ -7096,7 +7096,7 @@
         },
         {
           "path": "skills/ecc-loop-design-check/SKILL.md",
-          "sha256": "93df29748aaea53865bf3db80e3ecd551a96c5f5dac578861c36885e761d6bf8"
+          "sha256": "4473f9c5f066edbab60c54094f9ce6249badea0859b7a215a549386943b5765d"
         }
       ]
     },
@@ -8213,10 +8213,10 @@
       "source": "skills/openclaw-persona-forge/SKILL.md",
       "sourceSha256": "3498442cf72ee7efbc4cc56553b48dbbb1a26d1d95eca4037aede69e164a9875",
       "profile": "domain",
-      "description": "为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生成统一风格头像图片。 当用户需要创建、设计或定制 OpenClaw 龙虾灵魂时使用。 不适用于：微调已有 SOUL.md、非 OpenClaw 平台的角色设计、纯工具型无性格 Agent。 触发词：龙虾灵魂、虾魂、OpenClaw 灵魂、养虾灵魂、龙虾角色、龙虾定位、 龙虾剧本杀角色、龙虾游戏角色、龙虾 NPC、龙虾性格、龙虾背景故事、 lobster soul、lobster character、抽卡、随机龙虾、龙虾 SOUL、gacha。 Use when creating, designing, or customizing an OpenClaw lobster persona — identity, SOUL.md, name, or avatar prompt.",
+      "description": "Forge a complete lobster persona for an OpenClaw AI agent from user preferences or a random gacha draw. Provide identity, SOUL.md, character-specific boundaries, a name, and an avatar prompt. Use an available reviewed image-generation skill for a consistent avatar when permitted. Use when creating, designing, or customizing an OpenClaw lobster persona. Not for minor edits to an existing SOUL.md, personas for other platforms, or purely functional agents without a personality. Trigger concepts: lobster soul, OpenClaw soul, lobster character, identity, roleplay or game character, NPC, personality, backstory, random lobster, SOUL, and gacha.",
       "attribution": {
         "name": "openclaw-persona-forge",
-        "description": "为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生成统一风格头像图片。 当用户需要创建、设计或定制 OpenClaw 龙虾灵魂时使用。 不适用于：微调已有 SOUL.md、非 OpenClaw 平台的角色设计、纯工具型无性格 Agent。 触发词：龙虾灵魂、虾魂、OpenClaw 灵魂、养虾灵魂、龙虾角色、龙虾定位、 龙虾剧本杀角色、龙虾游戏角色、龙虾 NPC、龙虾性格、龙虾背景故事、 lobster soul、lobster character、抽卡、随机龙虾、龙虾 SOUL、gacha。 Use when creating, designing, or customizing an OpenClaw lobster persona — identity, SOUL.md, name, or avatar prompt.",
+        "description": "Forge a complete lobster persona for an OpenClaw AI agent from user preferences or a random gacha draw. Provide identity, SOUL.md, character-specific boundaries, a name, and an avatar prompt. Use an available reviewed image-generation skill for a consistent avatar when permitted. Use when creating, designing, or customizing an OpenClaw lobster persona. Not for minor edits to an existing SOUL.md, personas for other platforms, or purely functional agents without a personality. Trigger concepts: lobster soul, OpenClaw soul, lobster character, identity, roleplay or game character, NPC, personality, backstory, random lobster, SOUL, and gacha.",
         "metadata": {
           "origin": "community"
         }
@@ -8225,11 +8225,11 @@
       "files": [
         {
           "path": "skills/ecc-openclaw-persona-forge/gacha.py",
-          "sha256": "032aed98c1c93ced971ac223357b2d3a4162f7e6ca8ecd7eb3e35a121fe5d5bc"
+          "sha256": "6b08e3c45969b6997f79e27d2d84b3bea41078afd028e2ccbaf555d166ccd686"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/gacha.sh",
-          "sha256": "7f37efda4df83e547e37df7fb19d2ce34500cce7a6ab62e6983a2095b3761b67"
+          "sha256": "0c92377400048867dada2d4c743c916c927eca6ba79463b2eefee66a569d107c"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/LICENSE",
@@ -8237,39 +8237,39 @@
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/references/avatar-style.md",
-          "sha256": "b422938377812dff985dd6887756af87a4f866bc27a5fa33f9be1f0db60d8df1"
+          "sha256": "a7deaeb885e950148682203e18a3843ef367965ba984f4393e5a215b32333570"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/references/boundary-rules.md",
-          "sha256": "10ceeed8f1290d30de994efc42375619b458083b60d1b49d3a8f4abc645d2bfe"
+          "sha256": "8b167b4df1de9dfbde1834183ec1c330c620d6746f417850280a1080ae78f1c8"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/references/ecc-source.json",
-          "sha256": "0b4ff83aeafbd8150dea55670739cd4f4c209715e1dff16ee85d429f457b3374"
+          "sha256": "1d5d4b06d8f72df2701b71797da1a73f1f665483a80488efecca5fd0dfad37e0"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/references/ecc-workflow.md",
-          "sha256": "f4c21d19baddce178e9b02b49bcd068f4b3e150fb68d9652b92ff05447d6c75c"
+          "sha256": "ce751ab007d5a12a43b8ca119b99d75a43c941d65e0b3c48b61a771f06877f22"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/references/error-handling.md",
-          "sha256": "2e22cdd76b1b119b04f076b71d6fb3834d5a422fc952b3478237de85683bd243"
+          "sha256": "a693c80a7e376230d6d3f87e9941082c52d201a1f7a5fedb375c4960bb57b817"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/references/identity-tension.md",
-          "sha256": "e0f0c7ac300ed9c755fa6460197bdc3efe8f8186e738806a0591c779da4d16a9"
+          "sha256": "d43447214019e409b01f72f66541569639da04492bf7b4535caeb76ea584af63"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/references/naming-system.md",
-          "sha256": "ca0e8710c330222d03abf05e25e7a67d1ae3200fb239ebaea2fcb880c6bbb563"
+          "sha256": "f550516eb6593b143c27be7bd5c514246b132778ef511a6766898b6c705c547b"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/references/output-template.md",
-          "sha256": "4a832227b34b69aec997ae2c4b08cc1df81abcbb048b03e80173ea3f97c8e202"
+          "sha256": "784830239e2666ba38c17924a1d5220e4699a6bfa48bf1da93fc5bf7ba9eda4e"
         },
         {
           "path": "skills/ecc-openclaw-persona-forge/SKILL.md",
-          "sha256": "2b9668e8b9e1a08b1406ed42f86a3905af9922167a3852e4574807a30856a0fd"
+          "sha256": "00b48a2af68247b3bb4c5028a0d12b254861dff001ef0cd26522217b054bcd11"
         }
       ]
     },
@@ -9274,10 +9274,10 @@
       "source": "skills/prompt-optimizer/SKILL.md",
       "sourceSha256": "e98058f34c3338014d0b9ef0c821d932d6820284d40d1eaf4f716bceb9147db0",
       "profile": "domain",
-      "description": "Analyze draft prompts, detect intent and missing context, match ECC commands, skills, and agents, and output a ready-to-paste optimized prompt with diagnosis and rationale — advisory only, never executes the task. Use when the user says 'optimize prompt', 'improve my prompt', 'rewrite this prompt', 'help me prompt', 优化prompt, 改进prompt, 怎么写prompt, or 帮我优化这个指令; not for requests to optimize code or performance.",
+      "description": "Analyze draft prompts, detect intent and missing context, match ECC commands, skills, and agents, and output a ready-to-paste optimized prompt with diagnosis and rationale — advisory only, never executes the task. Use when the user says 'optimize prompt', 'improve my prompt', 'rewrite this prompt', 'help me prompt', 'how should I write this prompt', or 'help me improve this instruction'; not for requests to optimize code or performance.",
       "attribution": {
         "name": "prompt-optimizer",
-        "description": "Analyze draft prompts, detect intent and missing context, match ECC commands, skills, and agents, and output a ready-to-paste optimized prompt with diagnosis and rationale — advisory only, never executes the task. Use when the user says 'optimize prompt', 'improve my prompt', 'rewrite this prompt', 'help me prompt', 优化prompt, 改进prompt, 怎么写prompt, or 帮我优化这个指令; not for requests to optimize code or performance.",
+        "description": "Analyze draft prompts, detect intent and missing context, match ECC commands, skills, and agents, and output a ready-to-paste optimized prompt with diagnosis and rationale — advisory only, never executes the task. Use when the user says 'optimize prompt', 'improve my prompt', 'rewrite this prompt', 'help me prompt', 'how should I write this prompt', or 'help me improve this instruction'; not for requests to optimize code or performance.",
         "metadata": {
           "origin": "community",
           "author": "YannJY02",
@@ -9292,15 +9292,15 @@
         },
         {
           "path": "skills/ecc-prompt-optimizer/references/ecc-source.json",
-          "sha256": "1fffc19277dce4a61fe60092cc638dac1dd4ae37c4eee8b2b2f43e8b0d8acfa0"
+          "sha256": "b8c1ce1f9dc2f668923c885378bb4f48271ed2e587eb6524dd27e6acd0db4274"
         },
         {
           "path": "skills/ecc-prompt-optimizer/references/ecc-workflow.md",
-          "sha256": "49a3425d0ac4edeeb5d04ee6efa740174bbb3c94a12d7d565d1b2836412373fd"
+          "sha256": "fd87b7381f4933f625a39899f6bd339fad7a8465ca260c829fc7684d8962169e"
         },
         {
           "path": "skills/ecc-prompt-optimizer/SKILL.md",
-          "sha256": "be04f087b74939596b6f4249493d45d2f1fb733e872f6f2bf603026df2671474"
+          "sha256": "831d3f2d97cc655aa2b5125ae10ab2e2baf8a74d4fe7c9c15f8932ac6f9cade6"
         }
       ]
     },
@@ -10889,7 +10889,7 @@
         },
         {
           "path": "skills/ecc-skill-comply/references/ecc-upstream-files/tests/test_runner.py",
-          "sha256": "ea13e3e4463c3c153aa770ef18cfc1e8be72ec53d2ede1a64ba40e1e90427b22"
+          "sha256": "82703ffff4353839aeb00e1199ce04c10045bf717e847231d8d16dc87d084e2e"
         },
         {
           "path": "skills/ecc-skill-comply/references/ecc-upstream.md",
@@ -12834,7 +12834,7 @@
         },
         {
           "path": "skills/ecc-visa-doc-translate/README.md",
-          "sha256": "34c2550bd066d0dbfb976704da8c532f52f7c788b9ecad31f1262754d426e152"
+          "sha256": "60534a6c197afe092c567fcf1d60b7b7c6574c1a91420903ce96a5fcb97f2197"
         },
         {
           "path": "skills/ecc-visa-doc-translate/references/ecc-source.json",
@@ -12842,7 +12842,7 @@
         },
         {
           "path": "skills/ecc-visa-doc-translate/references/ecc-workflow.md",
-          "sha256": "b06a8ab78b552dfa68d2741cc6ddfd6a21fffefa230fef8f899788463063d3a6"
+          "sha256": "39b00a577087dee68edf2053e08e1b09e195113d372823e4e139f281f5290e60"
         },
         {
           "path": "skills/ecc-visa-doc-translate/SKILL.md",
@@ -19648,11 +19648,11 @@
         },
         {
           "path": "skills/ecc-catalog/references/catalog.md",
-          "sha256": "d05fe00dfd13b1548cb471045f02a835d4c72144b7b8c45246fc003892e444ae"
+          "sha256": "659a0e5f24b3348d2a16850a7eddfc0e65411d5c6bb2fa3ad867c3dbff7e6ca6"
         },
         {
           "path": "skills/ecc-catalog/references/manifest.json",
-          "sha256": "76b4be098b026f86d0a75bbbadef04b1d76c41901c1756644f5482279789a8a9"
+          "sha256": "a7a4766e269d0b8735a1b12647ed1f8672a201a85dc813573f9f6789f93df294"
         },
         {
           "path": "skills/ecc-catalog/SKILL.md",

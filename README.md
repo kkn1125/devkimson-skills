@@ -32,6 +32,8 @@ ECC의 모든 분야를 기존 스킬과 별도로 `ecc-` 이름으로 제공합
 
 45개 core 중복 변형은 해당 스킬의 참고 문서로 보존했습니다. 원본은 [affaan-m/ECC](https://github.com/affaan-m/ECC), 버전 `2.2.3`, 커밋 `76aaa77df6adc5b889e689007bf99b9a4f74af34`입니다. 개별 설치에도 출처와 MIT 라이선스가 포함됩니다.
 
+중국어가 섞인 설명·주석·예제는 해당 문서의 주된 언어에 맞춰 번역했습니다. 출처 메타데이터의 설명도 번역했으며, 원본 커밋·경로·라이선스·`sourceSha256`은 유지합니다. `files[].sha256`은 번역된 배포 파일을 검증합니다.
+
 ### 선택과 사용
 
 - 디자인·UI: `ecc-frontend-design-direction`, `ecc-design-system`, `ecc-frontend-a11y`, `ecc-make-interfaces-feel-better`

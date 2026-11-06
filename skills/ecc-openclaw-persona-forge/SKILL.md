@@ -1,6 +1,6 @@
 ---
 name: ecc-openclaw-persona-forge
-description: "为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生成统一风格头像图片。 当用户需要创建、设计或定制 OpenClaw 龙虾灵魂时使用。 不适用于：微调已有 SOUL.md、非 OpenClaw 平台的角色设计、纯工具型无性格 Agent。 触发词：龙虾灵魂、虾魂、OpenClaw 灵魂、养虾灵魂、龙虾角色、龙虾定位、 龙虾剧本杀角色、龙虾游戏角色、龙虾 NPC、龙虾性格、龙虾背景故事、 lobster soul、lobster character、抽卡、随机龙虾、龙虾 SOUL、gacha。 Use when creating, designing, or customizing an OpenClaw lobster persona — identity, SOUL.md, name, or avatar prompt."
+description: "Forge a complete lobster persona for an OpenClaw AI agent from user preferences or a random gacha draw. Provide identity, SOUL.md, character-specific boundaries, a name, and an avatar prompt. Use an available reviewed image-generation skill for a consistent avatar when permitted. Use when creating, designing, or customizing an OpenClaw lobster persona. Not for minor edits to an existing SOUL.md, personas for other platforms, or purely functional agents without a personality. Trigger concepts: lobster soul, OpenClaw soul, lobster character, identity, roleplay or game character, NPC, personality, backstory, random lobster, SOUL, and gacha."
 metadata:
   origin: "ECC Codex adaptation"
   source-kind: "skill"
@@ -8,7 +8,7 @@ metadata:
 
 # ecc-openclaw-persona-forge
 
-为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡， 输出身份定位、灵魂描述(SOUL.md)、角色化底线规则、名字和头像生图提示词。 如当前环境提供已审核的生图 skill，可自动生成统一风格头像图片。 当用户需要创建、设计或定制 OpenClaw 龙虾灵魂时使用。 不适用于：微调已有 SOUL.md、非 OpenClaw 平台的角色设计、纯工具型无性格 Agent。 触发词：龙虾灵魂、虾魂、OpenClaw 灵魂、养虾灵魂、龙虾角色、龙虾定位、 龙虾剧本杀角色、龙虾游戏角色、龙虾 NPC、龙虾性格、龙虾背景故事、 lobster soul、lobster character、抽卡、随机龙虾、龙虾 SOUL、gacha。 Use when creating, designing, or customizing an OpenClaw lobster persona — identity, SOUL.md, name, or avatar prompt.
+Forge a complete lobster persona for an OpenClaw AI agent from user preferences or a random gacha draw. Provide identity, SOUL.md, character-specific boundaries, a name, and an avatar prompt. Use an available reviewed image-generation skill for a consistent avatar when permitted. Use when creating, designing, or customizing an OpenClaw lobster persona. Not for minor edits to an existing SOUL.md, personas for other platforms, or purely functional agents without a personality. Trigger concepts: lobster soul, OpenClaw soul, lobster character, identity, roleplay or game character, NPC, personality, backstory, random lobster, SOUL, and gacha.
 
 ## Codex 적용
 

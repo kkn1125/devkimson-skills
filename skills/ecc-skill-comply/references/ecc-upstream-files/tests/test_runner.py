@@ -416,7 +416,7 @@ class TestParseStreamJsonRedactsHomePath:
             {
                 "paths": [
                     home + r"\Documents\résumé.txt",
-                    "C:/Users/Zoë/資料.txt",
+                    "C:/Users/Zoë/\u8cc7\u6599.txt",
                 ]
             },
             "irrelevant output",
@@ -427,7 +427,7 @@ class TestParseStreamJsonRedactsHomePath:
         parsed_input = json.loads(events[0].input)
         assert parsed_input["paths"] == [
             r"~\Documents\résumé.txt",
-            "~/資料.txt",
+            "~/\u8cc7\u6599.txt",
         ]
 
     def test_mapping_keys_are_redacted_without_silent_collision(
@@ -477,14 +477,14 @@ class TestParseStreamJsonRedactsHomePath:
         self._set_home(monkeypatch, home)
         output_content = [
             {"type": "text", "text": f"created {home}/résumé.txt"},
-            {"type": "metadata", "paths": [home, f"{home}/資料.json"]},
+            {"type": "metadata", "paths": [home, f"{home}/\u8cc7\u6599.json"]},
         ]
         stdout = self._stream_json_for({"file_path": "irrelevant"}, output_content)
         events = _parse_stream_json(stdout)
 
         assert json.loads(events[0].output) == [
             {"type": "text", "text": "created ~/résumé.txt"},
-            {"type": "metadata", "paths": ["~", "~/資料.json"]},
+            {"type": "metadata", "paths": ["~", "~/\u8cc7\u6599.json"]},
         ]
 
     def test_redacts_before_json_serialization_and_5000_character_truncation(

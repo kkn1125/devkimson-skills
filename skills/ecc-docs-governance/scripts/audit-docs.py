@@ -39,7 +39,7 @@ CODE_PATH_RE = re.compile(r"`([^`\n]+)`")
 TEST_ID_RE = re.compile(r"\bTEST-[A-Z0-9][A-Z0-9-]*\b")
 ADR_TARGET_RE = re.compile(r"\b(?:ADR-)?\d{3,4}-[a-z0-9-]+\.md\b", re.IGNORECASE)
 ADR_INLINE_SUCCESSOR_RE = re.compile(
-    r"(?im)^(?:[-*]\s+)?(?:\*\*(?:status|状态)\*\*|(?:status|状态))\s*[:：]\s*`?superseded`?\s+by\s+(ADR-\d{3,4})\s*$"
+    r"(?im)^(?:[-*]\s+)?(?:\*\*(?:status|\u72b6\u6001)\*\*|(?:status|\u72b6\u6001))\s*[:：]\s*`?superseded`?\s+by\s+(ADR-\d{3,4})\s*$"
 )
 IGNORED_DIRS = {".git", ".governance", ".venv", "node_modules", "vendor", "__pycache__"}
 IGNORED_REFERENCE_MARKERS = ("*", "{", "}", "<", ">", "…", "...")

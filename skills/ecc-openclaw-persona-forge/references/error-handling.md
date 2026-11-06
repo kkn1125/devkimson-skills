@@ -1,53 +1,53 @@
-# 错误处理与降级策略
+# Error Handling and Fallback Strategies
 
-## 设计理念
+## Design Principle
 
-> 任何错误都不应中断用户的创造流程。降级，不中断。
+> Errors should not interrupt the user's creative workflow. Degrade gracefully and keep going.
 
-## 错误分类与降级矩阵
+## Error Categories and Fallback Matrix
 
-### 类型 A：环境缺失
+### Category A: Missing Environment
 
-| 错误场景 | 检测方式 | 降级策略 | 告知用户 |
+| Failure | Detection | Fallback | Tell the user |
 |----------|---------|---------|---------|
-| Python 3 不可用 | `python3 --version` 失败 | 跳过 gacha.py，从 10 类预设方向中随机选择 | "抽卡引擎需要 Python 3，已改用内置随机选择" |
+| Python 3 unavailable | `python3 --version` fails | Skip gacha.py and randomly choose from the 10 preset directions | "The draw engine requires Python 3; using the built-in random selection instead." |
 
-### 类型 B：可选依赖不可用
+### Category B: Optional Dependency Unavailable
 
-| 错误场景 | 检测方式 | 降级策略 | 告知用户 |
+| Failure | Detection | Fallback | Tell the user |
 |----------|---------|---------|---------|
-| 生图 skill 未安装 | 检查 skill 是否存在 | 输出完整提示词文本 + 手动生图平台说明 | "未检测到可用的生图 skill，已输出提示词供手动使用" |
-| 生图 skill 调用失败 | skill 返回错误 | 重试 1 次，仍失败则输出提示词文本 | "生图失败，已输出提示词供手动使用" |
+| Image-generation skill not installed | Check skill availability | Provide the complete prompt and instructions for manual generation | "No usable image-generation skill was found; here is the prompt for manual use." |
+| Image-generation call fails | The skill returns an error | Retry once; provide prompt text if it still fails | "Image generation failed; here is the prompt for manual use." |
 
-### 类型 C：运行时异常
+### Category C: Runtime Exceptions
 
-| 错误场景 | 降级策略 | 告知用户 |
+| Failure | Fallback | Tell the user |
 |----------|---------|---------|
-| gacha.py 输出格式异常 | 从 10 类预设方向中随机选择 | "抽卡结果解析失败，已改用内置随机" |
-| 任何未预期错误 | 记录错误信息，跳过该步骤，继续主流程 | "遇到了一个问题：[错误简述]。已跳过继续" |
+| Unexpected gacha.py output format | Randomly choose from the 10 preset directions | "The draw result could not be parsed; using the built-in random selection instead." |
+| Any unexpected error | Record the error, skip that step, and continue the main workflow | "A problem occurred: [brief error]. Skipping this step and continuing." |
 
-## 错误信息统一格式
-
-```markdown
-> [警告] **[步骤名] 已降级**
-> 原因：[发生了什么]
-> 影响：[什么功能受限]
-> 替代：[正在用什么兜底]
-> 修复：[怎么恢复完整功能]
-```
-
-示例：
+## Standard Error Message
 
 ```markdown
-> [警告] **头像生成已降级**
-> 原因：未检测到可用的生图 skill
-> 影响：无法自动生成头像图片
-> 替代：已输出完整提示词，可复制到 Gemini / ChatGPT 手动生成
-> 修复：在当前环境中安装并启用经过审核的生图 skill
+> [Warning] **[Step name] is using a fallback**
+> Reason: [What happened]
+> Impact: [Affected capability]
+> Alternative: [Fallback in use]
+> Recovery: [How to restore full capability]
 ```
 
-## 关键原则
+Example:
 
-1. **文本方案是核心价值，头像是锦上添花**——辅助功能失败永不中断主流程
-2. **降级信息要可操作**——不只说"出错了"，要说"怎么修"
-3. **一次降级不影响后续步骤**——Step 5 降级了，Step 6 照常输出
+```markdown
+> [Warning] **Avatar generation is using a fallback**
+> Reason: No usable image-generation skill was found.
+> Impact: Automatic avatar generation is unavailable.
+> Alternative: The complete prompt is provided for manual use in Gemini or ChatGPT.
+> Recovery: Install and enable a reviewed image-generation skill in the current environment.
+```
+
+## Key Principles
+
+1. **The text plan is essential; the avatar is an enhancement**: failure of an auxiliary capability must not interrupt the main workflow.
+2. **Fallback messages must be actionable**: explain how to recover, rather than merely saying an error occurred.
+3. **A fallback does not block later steps**: Step 6 still produces its output if Step 5 uses a fallback.

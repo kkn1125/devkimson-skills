@@ -1,6 +1,6 @@
 ---
 name: ecc-loop-design-check
-description: "Codex-adapted loop-design-check procedure; optional runtimes are not bundled. Reference scope: Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. 中文触发：写 loop、设计 loop、做一个 loop、检查 loop 对不对、loop 体检、loop 会不会跑飞、可判定目标、五个崩法、plan build judge。"
+description: "Codex-adapted loop-design-check procedure; optional runtimes are not bundled. Reference scope: Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. Trigger concepts: writing and designing loops, checking loop correctness, loop health checks, runaway prevention, machine-decidable goals, five failure modes, and plan/build/judge."
 metadata:
   origin: "ECC Codex adaptation"
   source-kind: "skill"
@@ -8,7 +8,7 @@ metadata:
 
 # ecc-loop-design-check
 
-Codex-adapted loop-design-check procedure; optional runtimes are not bundled. Reference scope: Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. 中文触发：写 loop、设计 loop、做一个 loop、检查 loop 对不对、loop 体检、loop 会不会跑飞、可判定目标、五个崩法、plan build judge。
+Codex-adapted loop-design-check procedure; optional runtimes are not bundled. Reference scope: Design a goal-oriented agent loop or review one for failure modes: spinning, Goodhart-gaming the verifier, or running a wrong answer to completion. Covers machine-decidable goals, loop types, plan/build/judge skeletons, and runaway prevention; mechanism wiring lives in autonomous-loops. Use when designing, writing, or checking an agent loop. Trigger concepts: writing and designing loops, checking loop correctness, loop health checks, runaway prevention, machine-decidable goals, five failure modes, and plan/build/judge.
 
 ## Codex 적용
 
